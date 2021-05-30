@@ -40,7 +40,7 @@ public class KWArrayList<E> {
             throw new ArrayIndexOutOfBoundsException(index);
         }
         if (size == capacity) {
-
+            reallocate();
         }
     }
 }
