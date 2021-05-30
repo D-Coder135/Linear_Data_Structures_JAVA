@@ -59,6 +59,8 @@ public class KWArrayList<E> {
     }
 
     public E set(int index, E newValue) {
+        if (index < 0 || index > size) {
+            throw new ArrayIndexOutOfBoundsException(index);
 
-    }
+        }
 }
