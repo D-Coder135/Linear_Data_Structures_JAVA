@@ -11,5 +11,5 @@ public class KWArrayList {
     //Data Fields
 
     /*The default initial capacity*/
-
+    private static final int INITIAL_CAPACITY = 10;
 }
