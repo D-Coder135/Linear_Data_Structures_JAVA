@@ -20,5 +20,5 @@ public class KWArrayList<E> {
     private int size = 0;
 
     /*The current capacity*/
-
+    private int capacity = 0;
 }
