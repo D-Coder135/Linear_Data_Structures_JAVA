@@ -68,6 +68,8 @@ public class KWArrayList<E> {
     }
 
     public E remove(int index) {
-
+        if (index < 0 || index > size) {
+            throw new ArrayIndexOutOfBoundsException(index);
+        }
     }
 }
