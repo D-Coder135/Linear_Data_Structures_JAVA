@@ -26,4 +26,8 @@ public class KWArrayList<E> {
         capacity = INITIAL_CAPACITY;
         theDataArray = (E[]) new Object[capacity];
     }
+
+    public boolean add(E anEntry) {
+
+    }
 }
