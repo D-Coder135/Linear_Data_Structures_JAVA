@@ -75,5 +75,6 @@ public class KWArrayList<E> {
         for (int i = index + 1; i < size; i++) {
             theDataArray[i - 1] = theDataArray[i];
         }
+        size--;
     }
 }
