@@ -31,5 +31,7 @@ public class KWArrayList<E> {
         if (size == capacity) {
             reallocate();
         }
+        theDataArray[size++] = anEntry;
+
     }
 }
