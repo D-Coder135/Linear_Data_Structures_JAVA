@@ -8,4 +8,8 @@
 package arrayList;
 
 public class KWArrayList {
+    //Data Fields
+
+    /*The default initial capacity*/
+
 }
