@@ -7,12 +7,11 @@
 
 package arrayList;
 
-public class KWArrayList {
+public class KWArrayList<E> {
     //Data Fields
 
     /*The default initial capacity*/
     private static final int INITIAL_CAPACITY = 10;
 
     /*The underlying data array*/
-
 }
