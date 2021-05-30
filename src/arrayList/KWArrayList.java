@@ -50,4 +50,8 @@ public class KWArrayList<E> {
         theDataArray[index] = anEntry;
         size++;
     }
+
+    public E get(int index) {
+
+    }
 }
