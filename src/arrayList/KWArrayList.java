@@ -42,5 +42,6 @@ public class KWArrayList<E> {
         if (size == capacity) {
             reallocate();
         }
+//        Shift data in elements from the index to size - 1
     }
 }
