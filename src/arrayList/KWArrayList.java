@@ -63,4 +63,5 @@ public class KWArrayList<E> {
             throw new ArrayIndexOutOfBoundsException(index);
         }
         E oldValue = theDataArray[index];
+        theDataArray[index] = newValue;
 }
