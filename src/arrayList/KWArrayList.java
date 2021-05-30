@@ -15,4 +15,6 @@ public class KWArrayList<E> {
 
     /*The underlying data array*/
     private E[] theDataArray;
+
+    /*The current size*/
 }
