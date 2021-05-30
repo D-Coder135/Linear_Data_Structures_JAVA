@@ -66,4 +66,8 @@ public class KWArrayList<E> {
         theDataArray[index] = newValue;
         return oldValue;
     }
+
+    public E remove(int index) {
+
+    }
 }
