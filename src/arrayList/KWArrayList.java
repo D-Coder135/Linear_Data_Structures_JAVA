@@ -35,7 +35,7 @@ public class KWArrayList<E> {
         return true;
     }
 
-    public boolean add(int index, E anEntry) {
+    public void add(int index, E anEntry) {
         if (index < 0 || index > size) {
             throw new ArrayIndexOutOfBoundsException(index);
         }
