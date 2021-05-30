@@ -29,7 +29,7 @@ public class KWArrayList<E> {
 
     public boolean add(E anEntry) {
         if (size == capacity) {
-
+            reallocate();
         }
     }
 }
