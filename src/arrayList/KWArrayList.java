@@ -44,7 +44,7 @@ public class KWArrayList<E> {
         }
 //        Shift data in elements from the index to size - 1
         for (int i = size; i > index; i--) {
-
+            theDataArray[i] = theDataArray[i - 1];
         }
     }
 }
