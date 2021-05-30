@@ -71,5 +71,6 @@ public class KWArrayList<E> {
         if (index < 0 || index > size) {
             throw new ArrayIndexOutOfBoundsException(index);
         }
+        E returnValue = theDataArray[index];
     }
 }
