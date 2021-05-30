@@ -43,5 +43,8 @@ public class KWArrayList<E> {
             reallocate();
         }
 //        Shift data in elements from the index to size - 1
+        for (int i = size; i > index; i--) {
+
+        }
     }
 }
