@@ -46,5 +46,6 @@ public class KWArrayList<E> {
         for (int i = size; i > index; i--) {
             theDataArray[i] = theDataArray[i - 1];
         }
+//        Insert the new item
     }
 }
