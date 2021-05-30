@@ -52,6 +52,8 @@ public class KWArrayList<E> {
     }
 
     public E get(int index) {
+        if (index < 0 || index > size) {
 
+        }
     }
 }
