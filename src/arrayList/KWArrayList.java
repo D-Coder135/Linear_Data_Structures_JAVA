@@ -7,6 +7,8 @@
 
 package arrayList;
 
+import java.util.Arrays;
+
 public class KWArrayList<E> {
     //Data Fields
 
@@ -81,6 +83,7 @@ public class KWArrayList<E> {
 
     private void reallocate() {
         capacity = 2 * capacity;
+        theDataArray = Arrays.copyOf(theDataArray,capacity);
     }
 
 }
