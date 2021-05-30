@@ -12,4 +12,7 @@ public class KWArrayList {
 
     /*The default initial capacity*/
     private static final int INITIAL_CAPACITY = 10;
+
+    /*The underlying data array*/
+
 }
