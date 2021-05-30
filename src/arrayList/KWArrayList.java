@@ -80,6 +80,7 @@ public class KWArrayList<E> {
     }
 
     private void reallocate() {
+        capacity = 2 * capacity;
     }
 
 }
