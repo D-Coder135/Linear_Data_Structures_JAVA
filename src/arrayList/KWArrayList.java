@@ -78,4 +78,8 @@ public class KWArrayList<E> {
         size--;
         return returnValue;
     }
+
+    private void reallocate() {
+    }
+
 }
