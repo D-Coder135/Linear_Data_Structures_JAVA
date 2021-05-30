@@ -48,6 +48,6 @@ public class KWArrayList<E> {
         }
 //        Insert the new item
         theDataArray[index] = anEntry;
-
+        size++;
     }
 }
