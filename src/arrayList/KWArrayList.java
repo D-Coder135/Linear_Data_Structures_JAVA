@@ -14,4 +14,5 @@ public class KWArrayList<E> {
     private static final int INITIAL_CAPACITY = 10;
 
     /*The underlying data array*/
+    private E[] theDataArray;
 }
