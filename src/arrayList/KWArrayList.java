@@ -57,4 +57,8 @@ public class KWArrayList<E> {
         }
         return theDataArray[index];
     }
+
+    public E set(int index, E newValue) {
+
+    }
 }
