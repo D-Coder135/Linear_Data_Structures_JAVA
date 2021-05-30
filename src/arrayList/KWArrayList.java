@@ -32,6 +32,6 @@ public class KWArrayList<E> {
             reallocate();
         }
         theDataArray[size++] = anEntry;
-
+        return true;
     }
 }
