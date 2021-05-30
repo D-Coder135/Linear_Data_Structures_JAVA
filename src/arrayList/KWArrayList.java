@@ -24,6 +24,6 @@ public class KWArrayList<E> {
 
     public KWArrayList() {
         capacity = INITIAL_CAPACITY;
-
+        theDataArray = (E[]) new Object[capacity];
     }
 }
