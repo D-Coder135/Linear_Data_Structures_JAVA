@@ -34,4 +34,8 @@ public class KWArrayList<E> {
         theDataArray[size++] = anEntry;
         return true;
     }
+
+    public boolean add(int index, E anEntry) {
+
+    }
 }
