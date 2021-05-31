@@ -27,6 +27,6 @@ public class KWSinglyLinkedList<E> {
      * @param node The node preceding the new item
      * @param item The item to be inserted */
     private void addAfter(Node<E> node, E item) {
-
+        node.setNext(new Node<>(item, node.getNext()));
     }
 }
