@@ -11,5 +11,5 @@ public class Node<E> {
 //    Data Fields
 
     /*The reference to the data.*/
-
+    private E data;
 }
