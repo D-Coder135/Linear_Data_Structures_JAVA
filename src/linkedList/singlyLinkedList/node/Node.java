@@ -9,4 +9,7 @@ package linkedList.singlyLinkedList.node;
 
 public class Node<E> {
 //    Data Fields
+
+    /*The reference to the data.*/
+
 }
