@@ -25,4 +25,8 @@ public class Node<E> {
         this.data = data;
         this.next = null;
     }
+
+    /* Creates a new node that references another node.
+    * @param data The data stored
+    * @param next The node reference by new node */
 }
