@@ -99,5 +99,7 @@ public class KWSinglyLinkedList<E> {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         }
         Node<E> node = getNode(index);
+        E result = node.getData();
+        node.setData(newValue);
     }
 }
