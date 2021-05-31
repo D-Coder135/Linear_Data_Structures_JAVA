@@ -94,4 +94,7 @@ public class KWSinglyLinkedList<E> {
      * @return The data previously stored at index.
      * @throws IndexOutOfBoundsException if index is out of range
      * */
+    public E setData(int index, E newValue) {
+
+    }
 }
