@@ -15,4 +15,7 @@ public class Node<E> {
 
     /*The reference to the next node.*/
     private Node<E> next;
+
+//    Constructors
+
 }
