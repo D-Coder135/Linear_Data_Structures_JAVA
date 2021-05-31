@@ -87,4 +87,11 @@ public class KWSinglyLinkedList<E> {
         Node<E> node = getNode(index);
         return node.getData();
     }
+
+    /* Store a reference to anEntry in the element at position index.
+     * @param index The position of the item to change.
+     * @param newValue The new data
+     * @return The data previously stored at index.
+     * @throws IndexOutOfBoundsException if index is out of range
+     * */
 }
