@@ -19,7 +19,7 @@ public class Node<E> {
 //    Constructors
 
     /* Creates a new node with null next field.
-    * @param data The data stored */
+     * @param data The data stored */
 
     public Node(E data) {
         this.data = data;
@@ -27,8 +27,8 @@ public class Node<E> {
     }
 
     /* Creates a new node that references another node.
-    * @param data The data stored
-    * @param next The node reference by new node */
+     * @param data The data stored
+     * @param next The node reference by new node */
 
     public Node(E data, Node<E> next) {
         this.data = data;
