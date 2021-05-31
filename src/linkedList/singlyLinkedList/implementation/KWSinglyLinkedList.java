@@ -52,6 +52,9 @@ public class KWSinglyLinkedList<E> {
      * @param item The item to be appended.
      * @return true (as specified by the Collection interface)
      * */
+    public boolean add(E item) {
+
+    }
 
     /* Remove the node after a given node
      * @param node The node before the one to be removed
