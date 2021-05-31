@@ -38,7 +38,7 @@ public class KWSinglyLinkedList<E> {
     private E removeAfter(Node<E> node) {
         Node<E> temp = node.getNext();
         if (temp != null) {
-
+            node.setNext(temp.getNext());
         }
     }
 }
