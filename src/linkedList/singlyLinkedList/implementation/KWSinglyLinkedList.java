@@ -36,6 +36,9 @@ public class KWSinglyLinkedList<E> {
      * @param item The item to be inserted.
      * @throws IndexOutOfBoundsException if index is out of range.
      * */
+    public void add(int index, E item) {
+
+    }
 
     /* Remove the node after a given node
      * @param node The node before the one to be removed
