@@ -42,6 +42,8 @@ public class KWSinglyLinkedList<E> {
         }
         if (index == 0) {
             addFirst(item);
+        } else {
+
         }
     }
 
