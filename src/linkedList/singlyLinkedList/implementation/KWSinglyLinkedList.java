@@ -15,4 +15,7 @@ public class KWSinglyLinkedList<E> {
 
 //    The number of items in the list.
     private int size = 0;
+
+    /* Add an item to the front of the list.
+    * @param item The item to be added */
 }
