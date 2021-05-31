@@ -58,6 +58,8 @@ public class KWSinglyLinkedList<E> {
         if (temp != null) {
             size--;
             return temp.getData();
+        } else {
+
         }
     }
 }
