@@ -74,4 +74,10 @@ public class KWSinglyLinkedList<E> {
         }
         return node;
     }
+
+    /* Get the data at index
+     * @param index The position of the data to return
+     * @return The data at index
+     * @throws IndexOutOfBoundsException if index is out of range
+     * */
 }
