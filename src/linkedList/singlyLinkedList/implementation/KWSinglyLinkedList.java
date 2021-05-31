@@ -41,7 +41,7 @@ public class KWSinglyLinkedList<E> {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         }
         if (index == 0) {
-
+            addFirst(item);
         }
     }
 
