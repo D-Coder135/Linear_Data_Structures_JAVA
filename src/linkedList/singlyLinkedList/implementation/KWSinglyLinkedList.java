@@ -57,6 +57,7 @@ public class KWSinglyLinkedList<E> {
         // Return data at old head or null if the list is empty.
         if (temp != null) {
             size--;
+            return temp.getData();
         }
     }
 }
