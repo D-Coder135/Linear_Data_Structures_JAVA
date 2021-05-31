@@ -10,13 +10,15 @@ package linkedList.singlyLinkedList.node;
 public class Node<E> {
 //    Data Fields
 
-    /*The reference to the data.*/
+    /* The reference to the data. */
     private E data;
 
-    /*The reference to the next node.*/
+    /* The reference to the next node. */
     private Node<E> next;
 
 //    Constructors
 
-    /*Creates a new node with null next field.*/
+    /* Creates a new node with null next field.
+    * @param dataItem The data stored */
+
 }
