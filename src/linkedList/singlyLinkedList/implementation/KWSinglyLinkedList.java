@@ -53,7 +53,7 @@ public class KWSinglyLinkedList<E> {
      * @return true (as specified by the Collection interface)
      * */
     public boolean add(E item) {
-
+        add(size, item);
     }
 
     /* Remove the node after a given node
