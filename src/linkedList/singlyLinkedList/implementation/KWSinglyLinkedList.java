@@ -14,4 +14,5 @@ public class KWSinglyLinkedList<E> {
     private Node<E> head = null;
 
 //    The number of items in the list.
+    private int size = 0;
 }
