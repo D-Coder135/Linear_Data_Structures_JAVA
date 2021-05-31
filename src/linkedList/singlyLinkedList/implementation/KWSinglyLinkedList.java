@@ -36,6 +36,6 @@ public class KWSinglyLinkedList<E> {
      * @return The data from the removed node, or null if there is no node to remove.
      * */
     private E removeAfter(Node<E> node) {
-
+        Node<E> temp = node.getNext();
     }
 }
