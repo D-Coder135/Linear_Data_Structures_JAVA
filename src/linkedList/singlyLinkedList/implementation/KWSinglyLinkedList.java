@@ -40,6 +40,9 @@ public class KWSinglyLinkedList<E> {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         }
+        if (index == 0) {
+
+        }
     }
 
     /* Remove the node after a given node
