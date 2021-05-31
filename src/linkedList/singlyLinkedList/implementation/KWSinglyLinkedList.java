@@ -48,6 +48,11 @@ public class KWSinglyLinkedList<E> {
         }
     }
 
+    /* Append item to the end of the list
+     * @param item The item to be appended.
+     * @return true (as specified by the Collection interface)
+     * */
+
     /* Remove the node after a given node
      * @param node The node before the one to be removed
      * @return The data from the removed node, or null if there is no node to remove.
