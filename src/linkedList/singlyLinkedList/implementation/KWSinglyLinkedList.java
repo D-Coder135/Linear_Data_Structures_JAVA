@@ -70,7 +70,7 @@ public class KWSinglyLinkedList<E> {
     private Node<E> getNode(int index) {
         Node<E> node = head;
         for (int i = 0; i < index && node != null; i++) {
-
+            node = node.getNext();
         }
     }
 }
