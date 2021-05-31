@@ -68,6 +68,6 @@ public class KWSinglyLinkedList<E> {
      * @return The node at index or null if it does not exist.
      * */
     private Node<E> getNode(int index) {
-
+        Node<E> node = head;
     }
 }
