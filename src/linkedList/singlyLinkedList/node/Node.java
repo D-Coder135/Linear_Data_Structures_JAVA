@@ -18,4 +18,5 @@ public class Node<E> {
 
 //    Constructors
 
+    /*Creates a new node with null next field.*/
 }
