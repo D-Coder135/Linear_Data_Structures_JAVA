@@ -49,4 +49,7 @@ public class KWSinglyLinkedList<E> {
     /* Remove the first node from the list
      * @return The removed node's data or null if the list is empty.
      * */
+    private E removeFirst() {
+
+    }
 }
