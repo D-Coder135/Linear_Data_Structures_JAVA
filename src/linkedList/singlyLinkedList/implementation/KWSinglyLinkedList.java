@@ -20,5 +20,6 @@ public class KWSinglyLinkedList<E> {
      * @param item The item to be added */
     public void addFirst(E item) {
         head = new Node<>(item, head);
+        size++;
     }
 }
