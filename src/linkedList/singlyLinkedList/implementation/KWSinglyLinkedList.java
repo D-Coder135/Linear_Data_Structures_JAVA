@@ -50,6 +50,6 @@ public class KWSinglyLinkedList<E> {
      * @return The removed node's data or null if the list is empty.
      * */
     private E removeFirst() {
-
+        Node<E> temp = head;
     }
 }
