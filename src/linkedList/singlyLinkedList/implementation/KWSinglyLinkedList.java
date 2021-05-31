@@ -30,4 +30,9 @@ public class KWSinglyLinkedList<E> {
         node.setNext(new Node<>(item, node.getNext()));
         size++;
     }
+
+    /* Remove the node after a given node
+     * @param node The node before the one to be removed
+     * @return The data from the removed node, or null if there is no node to remove.
+     * */
 }
