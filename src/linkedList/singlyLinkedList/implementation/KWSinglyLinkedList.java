@@ -35,4 +35,7 @@ public class KWSinglyLinkedList<E> {
      * @param node The node before the one to be removed
      * @return The data from the removed node, or null if there is no node to remove.
      * */
+    private E removeAfter(Node<E> node) {
+
+    }
 }
