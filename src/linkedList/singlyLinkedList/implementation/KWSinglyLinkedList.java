@@ -98,5 +98,6 @@ public class KWSinglyLinkedList<E> {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         }
+        Node<E> node = getNode(index);
     }
 }
