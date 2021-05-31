@@ -62,4 +62,9 @@ public class KWSinglyLinkedList<E> {
             return null;
         }
     }
+
+    /* Find the node at a specified position
+     * @param index The position of the node sought
+     * @return The node at index or null if it does not exist.
+     * */
 }
