@@ -12,4 +12,6 @@ public class Node<E> {
 
     /*The reference to the data.*/
     private E data;
+
+    /*The reference to the next node.*/
 }
