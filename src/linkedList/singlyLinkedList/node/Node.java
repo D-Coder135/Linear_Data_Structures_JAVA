@@ -8,5 +8,5 @@
 package linkedList.singlyLinkedList.node;
 
 public class Node<E> {
-
+//    Data Fields
 }
