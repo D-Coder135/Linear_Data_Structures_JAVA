@@ -19,6 +19,10 @@ public class Node<E> {
 //    Constructors
 
     /* Creates a new node with null next field.
-    * @param dataItem The data stored */
+    * @param data The data stored */
 
+    public Node(E data) {
+        this.data = data;
+        this.next = null;
+    }
 }
