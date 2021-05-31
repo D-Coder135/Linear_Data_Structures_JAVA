@@ -51,5 +51,8 @@ public class KWSinglyLinkedList<E> {
      * */
     private E removeFirst() {
         Node<E> temp = head;
+        if (head != null) {
+
+        }
     }
 }
