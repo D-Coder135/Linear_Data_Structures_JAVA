@@ -7,6 +7,9 @@
 
 package linkedList.singlyLinkedList.implementation;
 
+import linkedList.singlyLinkedList.node.Node;
+
 public class KWSinglyLinkedList<E> {
 //    Reference to the list head. i.e head node
+    private Node<E> head = null;
 }
