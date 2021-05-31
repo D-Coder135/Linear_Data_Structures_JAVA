@@ -80,4 +80,7 @@ public class KWSinglyLinkedList<E> {
      * @return The data at index
      * @throws IndexOutOfBoundsException if index is out of range
      * */
+    public E getData(int index) {
+
+    }
 }
