@@ -44,6 +44,7 @@ public class KWSinglyLinkedList<E> {
             addFirst(item);
         } else {
             Node<E> node = getNode(index - 1);
+            addAfter(node, item);
         }
     }
 
