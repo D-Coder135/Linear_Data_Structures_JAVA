@@ -40,6 +40,7 @@ public class KWSinglyLinkedList<E> {
         if (temp != null) {
             node.setNext(temp.getNext());
             size--;
+            return temp.getData();
         }
     }
 }
