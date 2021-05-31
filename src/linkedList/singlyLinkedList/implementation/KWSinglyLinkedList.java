@@ -7,5 +7,5 @@
 
 package linkedList.singlyLinkedList.implementation;
 
-public class KWSinglyLinkedList {
+public class KWSinglyLinkedList<E> {
 }
