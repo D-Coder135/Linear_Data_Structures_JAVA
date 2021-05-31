@@ -26,4 +26,7 @@ public class KWSinglyLinkedList<E> {
     /* Add a node after a given node
      * @param node The node preceding the new item
      * @param item The item to be inserted */
+    private void addAfter(Node<E> node, E item) {
+
+    }
 }
