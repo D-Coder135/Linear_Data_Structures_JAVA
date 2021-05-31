@@ -72,5 +72,6 @@ public class KWSinglyLinkedList<E> {
         for (int i = 0; i < index && node != null; i++) {
             node = node.getNext();
         }
+        return node;
     }
 }
