@@ -42,7 +42,7 @@ public class KWSinglyLinkedList<E> {
             size--;
             return temp.getData();
         } else {
-
+            return null;
         }
     }
 }
