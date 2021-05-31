@@ -81,6 +81,8 @@ public class KWSinglyLinkedList<E> {
      * @throws IndexOutOfBoundsException if index is out of range
      * */
     public E getData(int index) {
-
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        }
     }
 }
