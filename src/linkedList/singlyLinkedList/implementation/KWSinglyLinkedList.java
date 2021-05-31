@@ -101,5 +101,6 @@ public class KWSinglyLinkedList<E> {
         Node<E> node = getNode(index);
         E result = node.getData();
         node.setData(newValue);
+        return result;
     }
 }
