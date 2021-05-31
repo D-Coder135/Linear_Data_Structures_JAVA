@@ -7,5 +7,6 @@
 
 package linkedList.singlyLinkedList.node;
 
-public class Node {
+public class Node<E> {
+
 }
