@@ -8,4 +8,5 @@
 package linkedList.singlyLinkedList.implementation;
 
 public class KWSinglyLinkedList<E> {
+//    Reference to the list head. i.e head node
 }
