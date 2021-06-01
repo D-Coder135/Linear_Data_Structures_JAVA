@@ -40,6 +40,8 @@ public class KWDoublyLinkedList<E> {
      * @throws IndexOutOfBoundsException if index is out of range.
      * */
     public void add(int index, E item) {
+        if (index < 0 || index > size) {
 
+        }
     }
 }
