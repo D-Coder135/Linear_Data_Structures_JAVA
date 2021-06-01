@@ -54,8 +54,10 @@ public class KWDoublyLinkedList<E> {
     /* Add an item to the front of the list.
      * @param item The item to be added
      * */
-    public void addFirst(E item) {
+    private void addFirst(E item) {
         tail = head = new Node<>(item, null, null);
         size++;
     }
+
+
 }
