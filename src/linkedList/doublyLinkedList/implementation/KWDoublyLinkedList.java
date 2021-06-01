@@ -72,5 +72,6 @@ public class KWDoublyLinkedList<E> {
         } else {
             tail = newNode;
         }
+        size++;
     }
 }
