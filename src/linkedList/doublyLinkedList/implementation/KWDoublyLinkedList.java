@@ -29,4 +29,7 @@ public class KWDoublyLinkedList<E> {
      * @param item The item to be appended.
      * @return true (as specified by the Collection interface)
      * */
+    public boolean add(E item) {
+
+    }
 }
