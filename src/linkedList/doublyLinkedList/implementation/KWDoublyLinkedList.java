@@ -69,6 +69,8 @@ public class KWDoublyLinkedList<E> {
         previousNode.setNext(newNode);
         if (nextNode != null) {
             nextNode.setPrev(newNode);
+        } else {
+
         }
     }
 }
