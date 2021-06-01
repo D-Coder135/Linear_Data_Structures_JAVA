@@ -24,4 +24,9 @@ public class KWDoublyLinkedList<E> {
      * This field will store the current size of the linked list.
      * */
     private int size = 0;
+
+    /* Append item to the end of the list
+     * @param item The item to be appended.
+     * @return true (as specified by the Collection interface)
+     * */
 }
