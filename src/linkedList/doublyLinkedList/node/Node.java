@@ -32,4 +32,9 @@ public class Node<E> {
      * @param next The next node.
      * @param prev The previous node.
      * */
+    public Node(E data, Node<E> next, Node<E> prev) {
+        this.data = data;
+        this.next = next;
+        this.prev = prev;
+    }
 }
