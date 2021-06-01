@@ -107,6 +107,7 @@ public class KWDoublyLinkedList<E> {
         if (head != null) {
             removedValue = head.getData();
             head = head.getNext();
+            size--;
         }
     }
 }
