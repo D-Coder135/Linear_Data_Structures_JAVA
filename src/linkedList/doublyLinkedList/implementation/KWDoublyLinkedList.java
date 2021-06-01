@@ -59,5 +59,8 @@ public class KWDoublyLinkedList<E> {
         size++;
     }
 
-
+    /* Add a node after a given node
+     * @param node The node preceding the new item
+     * @param item The item to be inserted
+     * */
 }
