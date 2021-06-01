@@ -118,5 +118,8 @@ public class KWDoublyLinkedList<E> {
      * */
     public Node<E> getNode(int index) {
         Node<E> currentNode = head;
+        for (int i = 0; i < index; i++) {
+
+        }
     }
 }
