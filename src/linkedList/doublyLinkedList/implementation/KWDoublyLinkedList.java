@@ -77,5 +77,6 @@ public class KWDoublyLinkedList<E> {
 
     public E remove() {
         // remove the last element from the linked list.
+        return remove(size - 1);
     }
 }
