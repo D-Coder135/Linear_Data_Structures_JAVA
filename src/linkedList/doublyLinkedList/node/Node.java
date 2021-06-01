@@ -19,6 +19,10 @@ public class Node<E> {
     private Node<E> prev = null;
 
     /* Constructor a node with the given data value.
-     * @param dataItem The data value.
+     * @param data The data value.
      * */
+
+    public Node(E data) {
+        this.data = data;
+    }
 }
