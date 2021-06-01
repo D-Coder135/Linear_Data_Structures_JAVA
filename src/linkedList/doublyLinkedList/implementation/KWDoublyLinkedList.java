@@ -67,5 +67,8 @@ public class KWDoublyLinkedList<E> {
         Node<E> nextNode = previousNode.getNext();
         Node<E> newNode = new Node<>(item, nextNode, previousNode);
         previousNode.setNext(newNode);
+        if (nextNode != null) {
+
+        }
     }
 }
