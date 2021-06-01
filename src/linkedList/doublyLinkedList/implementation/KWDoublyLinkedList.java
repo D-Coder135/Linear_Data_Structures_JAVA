@@ -30,6 +30,6 @@ public class KWDoublyLinkedList<E> {
      * @return true (as specified by the Collection interface)
      * */
     public boolean add(E item) {
-
+        add(size, item);
     }
 }
