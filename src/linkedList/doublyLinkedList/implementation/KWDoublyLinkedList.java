@@ -39,4 +39,7 @@ public class KWDoublyLinkedList<E> {
      * @param item The item to be inserted.
      * @throws IndexOutOfBoundsException if index is out of range.
      * */
+    public void add(int index, E item) {
+
+    }
 }
