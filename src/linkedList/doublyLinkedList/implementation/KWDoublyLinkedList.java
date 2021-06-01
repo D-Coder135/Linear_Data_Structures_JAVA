@@ -74,4 +74,8 @@ public class KWDoublyLinkedList<E> {
         }
         size++;
     }
+
+    public E remove() {
+
+    }
 }
