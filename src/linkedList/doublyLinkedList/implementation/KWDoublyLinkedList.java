@@ -117,6 +117,6 @@ public class KWDoublyLinkedList<E> {
      * @return The node at index or null if it does not exist.
      * */
     public Node<E> getNode(int index) {
-
+        Node<E> currentNode = head;
     }
 }
