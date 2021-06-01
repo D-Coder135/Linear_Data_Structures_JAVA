@@ -95,6 +95,7 @@ public class KWDoublyLinkedList<E> {
         E removedValue = null;
         Node<E> nodeToBeRemoved = previousNode.getNext();
         if (nodeToBeRemoved != null) {
+            removedValue = nodeToBeRemoved.getData();
 
         }
     }
