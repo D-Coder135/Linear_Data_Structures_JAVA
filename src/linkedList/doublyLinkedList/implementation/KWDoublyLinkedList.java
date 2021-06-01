@@ -50,4 +50,8 @@ public class KWDoublyLinkedList<E> {
             addAfter(previousNode, item);
         }
     }
+
+    /* Add an item to the front of the list.
+     * @param item The item to be added
+     * */
 }
