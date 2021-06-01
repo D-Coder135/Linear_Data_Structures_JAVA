@@ -80,7 +80,7 @@ public class KWDoublyLinkedList<E> {
         return remove(size - 1);
     }
 
-    public E remove(int index) {
+    public E remove(int index) throws IndexOutOfBoundsException {
 
     }
 }
