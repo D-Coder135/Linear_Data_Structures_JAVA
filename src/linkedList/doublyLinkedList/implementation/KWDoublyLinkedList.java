@@ -56,5 +56,6 @@ public class KWDoublyLinkedList<E> {
      * */
     public void addFirst(E item) {
         tail = head = new Node<>(item, null, null);
+        size++;
     }
 }
