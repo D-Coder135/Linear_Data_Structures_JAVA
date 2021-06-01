@@ -7,9 +7,12 @@
 
 package linkedList.doublyLinkedList.implementation;
 
+import linkedList.doublyLinkedList.node.Node;
+
 public class KWDoublyLinkedList<E> {
     /*
      * This field will store the reference to the first node in the linked list. i.e head
      * */
+    private Node<E> head = null;
 
 }
