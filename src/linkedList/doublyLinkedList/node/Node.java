@@ -14,4 +14,6 @@ public class Node<E> {
 
     /* The link to the next node. */
     private Node<E> next = null;
+
+    /* The link to the previous node. */
 }
