@@ -31,5 +31,6 @@ public class KWDoublyLinkedList<E> {
      * */
     public boolean add(E item) {
         add(size, item);
+        return true;
     }
 }
