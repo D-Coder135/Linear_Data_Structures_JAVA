@@ -44,7 +44,7 @@ public class KWDoublyLinkedList<E> {
             // throw the IndexOutOfBoundsException if the index given is incorrect.
             throw new IndexOutOfBoundsException(index);
         } else if (index == 0) {
-
+            addFirst(item);
         }
     }
 }
