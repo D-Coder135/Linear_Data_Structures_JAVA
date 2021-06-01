@@ -13,10 +13,10 @@ public class Node<E> {
     private E data;
 
     /* The link to the next node. */
-    private Node<E> next = null;
+    private Node<E> next;
 
     /* The link to the previous node. */
-    private Node<E> prev = null;
+    private Node<E> prev;
 
     /* Constructor a node with the given data value.
      * @param data The data value.
