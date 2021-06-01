@@ -85,6 +85,8 @@ public class KWDoublyLinkedList<E> {
             throw new IndexOutOfBoundsException(index);
         } else if (index == 0) {
             return removeFirst();
+        } else {
+
         }
     }
 }
