@@ -7,5 +7,5 @@
 
 package linkedList.doublyLinkedList.implementation;
 
-public class KWDoublyLinkedList {
+public class KWDoublyLinkedList<E> {
 }
