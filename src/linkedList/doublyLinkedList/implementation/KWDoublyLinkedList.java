@@ -64,6 +64,6 @@ public class KWDoublyLinkedList<E> {
      * @param item The item to be inserted
      * */
     private void addAfter(Node<E> previousNode, E item) {
-
+        Node<E> nextNode = previousNode.getNext();
     }
 }
