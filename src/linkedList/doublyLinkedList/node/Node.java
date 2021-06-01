@@ -7,5 +7,7 @@
 
 package linkedList.doublyLinkedList.node;
 
+// A Node is the building block for a double-linked list.
 public class Node<E> {
+
 }
