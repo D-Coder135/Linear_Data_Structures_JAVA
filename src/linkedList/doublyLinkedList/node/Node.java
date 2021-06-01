@@ -17,4 +17,8 @@ public class Node<E> {
 
     /* The link to the previous node. */
     private Node<E> prev = null;
+
+    /* Constructor a node with the given data value.
+     * @param dataItem The data value.
+     * */
 }
