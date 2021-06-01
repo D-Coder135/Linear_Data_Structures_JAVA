@@ -70,7 +70,7 @@ public class KWDoublyLinkedList<E> {
         if (nextNode != null) {
             nextNode.setPrev(newNode);
         } else {
-
+            tail = newNode;
         }
     }
 }
