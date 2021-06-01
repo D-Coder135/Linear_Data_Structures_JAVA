@@ -46,7 +46,7 @@ public class KWDoublyLinkedList<E> {
         } else if (index == 0) {
             addFirst(item);
         } else {
-
+            Node<E> previousNode = getNode(index - 1);
         }
     }
 }
