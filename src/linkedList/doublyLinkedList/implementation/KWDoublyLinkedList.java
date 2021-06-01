@@ -116,4 +116,7 @@ public class KWDoublyLinkedList<E> {
      * @param index The position of the node sought
      * @return The node at index or null if it does not exist.
      * */
+    public Node<E> getNode(int index) {
+
+    }
 }
