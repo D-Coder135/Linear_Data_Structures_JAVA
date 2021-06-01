@@ -21,10 +21,15 @@ public class Node<E> {
     /* Constructor a node with the given data value.
      * @param data The data value.
      * */
-
     public Node(E data) {
         this.data = data;
         this.next = null;
         this.prev = null;
     }
+
+    /* Constructor a node with the given data value and references to the next and previous nodes.
+     * @param data The data value.
+     * @param next The next node.
+     * @param prev The previous node.
+     * */
 }
