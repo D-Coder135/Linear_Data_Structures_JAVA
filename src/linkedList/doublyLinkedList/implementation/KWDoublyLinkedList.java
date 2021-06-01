@@ -20,4 +20,7 @@ public class KWDoublyLinkedList<E> {
      * */
     private Node<E> tail = null;
 
+    /*
+     * This field will store the current size of the linked list.
+     * */
 }
