@@ -87,6 +87,7 @@ public class KWDoublyLinkedList<E> {
             return removeFirst();
         } else {
             Node<E> previousNode = getNode(index - 1);
+            return removeAfter(previousNode);
         }
     }
 }
