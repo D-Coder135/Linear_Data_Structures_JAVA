@@ -63,4 +63,7 @@ public class KWDoublyLinkedList<E> {
      * @param node The node preceding the new item
      * @param item The item to be inserted
      * */
+    private void addAfter(Node<E> previousNode, E item) {
+
+    }
 }
