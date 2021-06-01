@@ -43,6 +43,8 @@ public class KWDoublyLinkedList<E> {
         if (index < 0 || index > size) {
             // throw the IndexOutOfBoundsException if the index given is incorrect.
             throw new IndexOutOfBoundsException(index);
+        } else if (index == 0) {
+
         }
     }
 }
