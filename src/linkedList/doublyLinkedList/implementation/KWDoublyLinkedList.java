@@ -18,5 +18,6 @@ public class KWDoublyLinkedList<E> {
     /*
      * This field will store the reference to the last node in the linked list. i.e tail
      * */
+    private Node<E> tail = null;
 
 }
