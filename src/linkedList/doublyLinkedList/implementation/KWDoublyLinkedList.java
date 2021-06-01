@@ -101,4 +101,8 @@ public class KWDoublyLinkedList<E> {
         }
         return removedValue;
     }
+
+    private E removeFirst() {
+
+    }
 }
