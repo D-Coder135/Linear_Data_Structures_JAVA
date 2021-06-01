@@ -121,5 +121,6 @@ public class KWDoublyLinkedList<E> {
         for (int i = 0; i < index; i++) {
             currentNode = currentNode.getNext();
         }
+        return currentNode;
     }
 }
