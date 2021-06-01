@@ -13,5 +13,5 @@ public class Node<E> {
     private E data;
 
     /* The link to the next node. */
-
+    private Node<E> next = null;
 }
