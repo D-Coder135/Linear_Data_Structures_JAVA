@@ -33,4 +33,10 @@ public class KWDoublyLinkedList<E> {
         add(size, item);
         return true;
     }
+
+    /* Insert the specified item at index.
+     * @param index The position where the item is to be inserted.
+     * @param item The item to be inserted.
+     * @throws IndexOutOfBoundsException if index is out of range.
+     * */
 }
