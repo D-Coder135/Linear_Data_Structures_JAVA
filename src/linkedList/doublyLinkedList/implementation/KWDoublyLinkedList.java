@@ -41,7 +41,7 @@ public class KWDoublyLinkedList<E> {
      * */
     public void add(int index, E item) {
         if (index < 0 || index > size) {
-
+            throw new IndexOutOfBoundsException(index);
         }
     }
 }
