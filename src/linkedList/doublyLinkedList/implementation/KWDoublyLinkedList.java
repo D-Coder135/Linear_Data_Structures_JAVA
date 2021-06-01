@@ -23,4 +23,5 @@ public class KWDoublyLinkedList<E> {
     /*
      * This field will store the current size of the linked list.
      * */
+    private int size = 0;
 }
