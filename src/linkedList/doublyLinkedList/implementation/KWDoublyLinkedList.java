@@ -90,4 +90,8 @@ public class KWDoublyLinkedList<E> {
             return removeAfter(previousNode);
         }
     }
+
+    private E removeAfter(Node<E> previousNode) {
+
+    }
 }
