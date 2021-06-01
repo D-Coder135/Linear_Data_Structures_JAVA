@@ -99,5 +99,6 @@ public class KWDoublyLinkedList<E> {
             previousNode.setNext(nodeToBeRemoved.getNext());
             size--;
         }
+        return removedValue;
     }
 }
