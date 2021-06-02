@@ -82,6 +82,6 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      * @returns true if the list contained object obj otherwise, returns false
      */
     public boolean remove(E obj) {
-
+        return theList.remove(obj);
     }
 }
