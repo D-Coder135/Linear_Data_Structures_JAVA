@@ -10,6 +10,7 @@ package linkedList.applications.asOrderedList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
 
@@ -23,7 +24,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      *  @param obj The item to be inserted.
      * */
     public void add(E obj) {
-
+        ListIterator<E> iter = theList.listIterator();
     }
 
     @Override
