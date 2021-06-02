@@ -7,5 +7,5 @@
 
 package linkedList.applications.asOrderedList;
 
-public class OrderedList {
+public class OrderedList<E> {
 }
