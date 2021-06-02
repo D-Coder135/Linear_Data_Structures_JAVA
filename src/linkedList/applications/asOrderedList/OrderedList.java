@@ -16,6 +16,13 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     /* A list to contain the data. */
     private List<E> theList = new LinkedList<>();
 
+    /* Insert obj into the list preserving the list's order.
+     *  @pre The items in the lists are ordered.
+     *  @post obj has been inserted into the list
+     *         such that the items are still in order.
+     *  @param obj The item to be inserted.
+     * */
+
     @Override
     public Iterator<E> iterator() {
         return null;
