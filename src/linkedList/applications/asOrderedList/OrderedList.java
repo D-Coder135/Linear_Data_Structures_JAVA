@@ -7,5 +7,11 @@
 
 package linkedList.applications.asOrderedList;
 
+import java.util.Iterator;
+
 public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
+    @Override
+    public Iterator<E> iterator() {
+        return null;
+    }
 }
