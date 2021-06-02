@@ -47,11 +47,18 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     }
 
     /**
-     Returns an iterator to this OrderedList.
-     @return The iterator, positioning it before the first element
+     * Returns an iterator to this OrderedList.
+     *
+     * @return The iterator, positioning it before the first element
      */
     @Override
     public Iterator<E> iterator() {
         return theList.iterator();
     }
+
+    /**
+     Returns the element at the specified position.
+     @param index The specified position
+     @return The element at position index
+     */
 }
