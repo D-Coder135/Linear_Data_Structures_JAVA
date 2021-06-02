@@ -26,6 +26,9 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     public void add(E obj) {
         ListIterator<E> iter = theList.listIterator();
         // Find an insertion point and insert.
+        while (iter.hasNext()) {
+
+        }
     }
 
     @Override
