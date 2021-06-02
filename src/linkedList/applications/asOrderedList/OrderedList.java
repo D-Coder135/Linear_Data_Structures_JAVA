@@ -22,6 +22,9 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      *         such that the items are still in order.
      *  @param obj The item to be inserted.
      * */
+    public void add(E obj) {
+
+    }
 
     @Override
     public Iterator<E> iterator() {
