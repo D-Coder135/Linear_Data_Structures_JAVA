@@ -31,6 +31,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
                 // Iterator has stepped over the first element
                 // that is greater than the element to be inserted.
                 // Move the iterator back one.
+                iter.previous();
             }
         }
     }
