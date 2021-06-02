@@ -8,10 +8,13 @@
 package linkedList.applications.asOrderedList;
 
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
 
     /* A list to contain the data. */
+    private List<E> theList = new LinkedList<>();
 
     @Override
     public Iterator<E> iterator() {
