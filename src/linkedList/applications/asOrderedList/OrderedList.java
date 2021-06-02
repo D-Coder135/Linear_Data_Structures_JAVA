@@ -41,7 +41,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
         }
         // assert: All items were examined and no item is larger than the element to be inserted.
         // Add the new item to the end of the list.
-
+        iter.add(obj);
     }
 
     @Override
