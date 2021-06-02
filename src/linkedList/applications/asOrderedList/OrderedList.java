@@ -27,7 +27,11 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
         ListIterator<E> iter = theList.listIterator();
         // Find an insertion point and insert.
         while (iter.hasNext()) {
-
+            if (obj.compareTo(iter.next()) < 0) {
+                // Iterator has stepped over the first element
+                // that is greater than the element to be inserted.
+                // Move the iterator back one.
+            }
         }
     }
 
