@@ -63,6 +63,6 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      * @return The element at position index
      */
     public E get(int index) {
-
+        return theList.get(index);
     }
 }
