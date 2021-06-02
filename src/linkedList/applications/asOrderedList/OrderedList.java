@@ -79,7 +79,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      * Removes first occurrence of obj from the list.
      *
      * @param obj The element to be removed from the list
-     * @returns true if the list contained object obj otherwise, returns false
+     * @return true if the list contained object obj otherwise, returns false
      */
     public boolean remove(E obj) {
         return theList.remove(obj);
