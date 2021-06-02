@@ -67,8 +67,11 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     }
 
     /**
-     Returns the size of the list.
-     @return the size of the list
+     * Returns the size of the list.
+     *
+     * @return the size of the list
      */
+    public int size() {
 
+    }
 }
