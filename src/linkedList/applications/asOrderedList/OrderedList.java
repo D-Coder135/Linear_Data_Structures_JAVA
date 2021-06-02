@@ -57,8 +57,12 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     }
 
     /**
-     Returns the element at the specified position.
-     @param index The specified position
-     @return The element at position index
+     * Returns the element at the specified position.
+     *
+     * @param index The specified position
+     * @return The element at position index
      */
+    public E get(int index) {
+
+    }
 }
