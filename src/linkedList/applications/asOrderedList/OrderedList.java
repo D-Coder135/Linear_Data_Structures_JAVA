@@ -44,6 +44,11 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
         iter.add(obj);
     }
 
+    /**
+     * Returns an iterator to this OrderedList.
+     *
+     * @return The iterator, positioning it before the first element
+     */
     @Override
     public Iterator<E> iterator() {
         return null;
