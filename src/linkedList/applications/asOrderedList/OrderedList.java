@@ -49,7 +49,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     /**
      * Returns an iterator to this OrderedList.
      *
-     * @returns The iterator, positioning it before the first element
+     * @return The iterator, positioning it before the first element
      */
     @Override
     public Iterator<E> iterator() {
@@ -60,7 +60,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      * Returns the element at the specified position.
      *
      * @param index The specified position
-     * @returns The element at position index
+     * @return The element at position index
      */
     public E get(int index) {
         return theList.get(index);
@@ -69,7 +69,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     /**
      * Returns the size of the list.
      *
-     * @returns the size of the list
+     * @return the size of the list
      */
     public int size() {
         return theList.size();
