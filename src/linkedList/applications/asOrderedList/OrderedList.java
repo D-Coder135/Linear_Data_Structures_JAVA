@@ -7,5 +7,5 @@
 
 package linkedList.applications.asOrderedList;
 
-public class OrderedList<E> {
+public class OrderedList<E extends Comparable<E>> {
 }
