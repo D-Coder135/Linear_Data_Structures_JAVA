@@ -35,6 +35,7 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
 
                 // Insert the element.
                 iter.add(obj);
+                // Exit the loop and return.
             }
         }
     }
