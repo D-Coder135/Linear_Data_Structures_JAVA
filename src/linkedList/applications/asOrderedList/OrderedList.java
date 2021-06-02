@@ -65,4 +65,10 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
     public E get(int index) {
         return theList.get(index);
     }
+
+    /**
+     Returns the size of the list.
+     @return the size of the list
+     */
+
 }
