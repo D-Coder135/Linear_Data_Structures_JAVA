@@ -72,6 +72,6 @@ public class OrderedList<E extends Comparable<E>> implements Iterable<E> {
      * @return the size of the list
      */
     public int size() {
-
+        return theList.size();
     }
 }
