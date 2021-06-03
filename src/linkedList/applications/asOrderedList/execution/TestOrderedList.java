@@ -28,4 +28,8 @@ public class TestOrderedList {
             prevItem = thisItem;
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
