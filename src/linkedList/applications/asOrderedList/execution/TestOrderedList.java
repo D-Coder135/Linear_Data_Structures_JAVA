@@ -42,5 +42,8 @@ public class TestOrderedList {
             int anInteger = random.nextInt(MAX_INT);
             testList.add(anInteger);
         }
+
+        // Add to beginning and end of the list.
+
     }
 }
