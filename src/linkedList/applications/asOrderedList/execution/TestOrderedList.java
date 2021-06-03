@@ -49,6 +49,6 @@ public class TestOrderedList {
         traverseAndShow(testList); // Traverse and display the list.
 
         // Remove first, last and middle elements.
-
+        Integer first = testList.get(0);
     }
 }
