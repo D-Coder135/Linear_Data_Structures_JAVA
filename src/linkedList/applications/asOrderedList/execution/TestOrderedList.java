@@ -52,5 +52,9 @@ public class TestOrderedList {
         Integer first = testList.get(0);
         Integer last = testList.get(testList.size() - 1);
         Integer middle = testList.get(testList.size() / 2);
+        testList.remove(first);
+        testList.remove(last);
+        testList.remove(middle);
+
     }
 }
