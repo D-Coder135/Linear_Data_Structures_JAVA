@@ -9,6 +9,8 @@ package linkedList.applications.asOrderedList.execution;
 
 import linkedList.applications.asOrderedList.implementation.OrderedList;
 
+import java.util.Random;
+
 public class TestOrderedList {
     /**
      * Traverses ordered list and displays each element.
@@ -35,5 +37,6 @@ public class TestOrderedList {
         final int START_SIZE = 100;
 
         // Create a random number generator.
+        Random random = new Random();
     }
 }
