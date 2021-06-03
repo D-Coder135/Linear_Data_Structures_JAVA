@@ -48,6 +48,8 @@ public class TestOrderedList {
         testList.add(MAX_INT + 1);
         traverseAndShow(testList); // Traverse and display the list.
 
+        System.out.println("-------------------------------");
+
         // Remove first, last and middle elements.
         Integer first = testList.get(0);
         Integer last = testList.get(testList.size() - 1);
