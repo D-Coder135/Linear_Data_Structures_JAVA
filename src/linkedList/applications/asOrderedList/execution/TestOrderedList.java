@@ -46,5 +46,6 @@ public class TestOrderedList {
         // Add to beginning and end of the list.
         testList.add(-1);
         testList.add(MAX_INT + 1);
+        traverseAndShow(testList);
     }
 }
