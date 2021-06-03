@@ -20,5 +20,8 @@ public class TestOrderedList {
         int prevItem = testList.get(0);
 
         // Traverse ordered list and display any value that is out of order.
+        for (Integer thisItem : testList) {
+
+        }
     }
 }
