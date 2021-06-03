@@ -47,5 +47,8 @@ public class TestOrderedList {
         testList.add(-1);
         testList.add(MAX_INT + 1);
         traverseAndShow(testList); // Traverse and display the list.
+
+        // Remove first, last and middle elements.
+
     }
 }
