@@ -33,5 +33,7 @@ public class TestOrderedList {
         OrderedList<Integer> testList = new OrderedList<>();
         final int MAX_INT = 500;
         final int START_SIZE = 100;
+
+        // Create a random number generator.
     }
 }
