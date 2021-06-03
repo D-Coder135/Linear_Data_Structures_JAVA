@@ -21,7 +21,7 @@ public class TestOrderedList {
 
         // Traverse ordered list and display any value that is out of order.
         for (Integer thisItem : testList) {
-
+            System.out.println(thisItem);
         }
     }
 }
