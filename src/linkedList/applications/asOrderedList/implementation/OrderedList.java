@@ -5,7 +5,7 @@
  *   File: OrderedList.java
  */
 
-package linkedList.applications.asOrderedList;
+package linkedList.applications.asOrderedList.implementation;
 
 import java.util.Iterator;
 import java.util.LinkedList;
