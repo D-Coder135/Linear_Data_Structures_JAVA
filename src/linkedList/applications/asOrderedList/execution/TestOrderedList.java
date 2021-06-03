@@ -55,6 +55,6 @@ public class TestOrderedList {
         testList.remove(first);
         testList.remove(last);
         testList.remove(middle);
-
+        traverseAndShow(testList);
     }
 }
