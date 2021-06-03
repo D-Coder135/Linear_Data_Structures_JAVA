@@ -18,5 +18,7 @@ public class TestOrderedList {
      */
     public static void traverseAndShow(OrderedList<Integer> testList) {
         int prevItem = testList.get(0);
+
+        // Traverse ordered list and display any value that is out of order.
     }
 }
