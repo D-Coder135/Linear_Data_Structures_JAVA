@@ -17,6 +17,6 @@ public class TestOrderedList {
      * @param testList An ordered list of integers
      */
     public static void traverseAndShow(OrderedList<Integer> testList) {
-
+        int prevItem = testList.get(0);
     }
 }
