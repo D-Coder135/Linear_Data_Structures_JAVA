@@ -30,6 +30,6 @@ public class TestOrderedList {
     }
 
     public static void main(String[] args) {
-
+        OrderedList<Integer> testList = new OrderedList<>();
     }
 }
