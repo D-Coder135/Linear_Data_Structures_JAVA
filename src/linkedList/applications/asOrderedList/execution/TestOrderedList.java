@@ -40,7 +40,7 @@ public class TestOrderedList {
         Random random = new Random();
         for (int i = 0; i < START_SIZE; i++) {
             int anInteger = random.nextInt(MAX_INT);
-
+            testList.add(anInteger);
         }
     }
 }
