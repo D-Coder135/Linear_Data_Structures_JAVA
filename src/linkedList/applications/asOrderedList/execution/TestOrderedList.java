@@ -39,6 +39,7 @@ public class TestOrderedList {
         // Create a random number generator.
         Random random = new Random();
         for (int i = 0; i < START_SIZE; i++) {
+            int anInteger = random.nextInt(MAX_INT);
 
         }
     }
