@@ -25,6 +25,7 @@ public class TestOrderedList {
             if (prevItem > thisItem) {
                 System.err.println("*** FAILED, value is " + thisItem);
             }
+            prevItem = thisItem;
         }
     }
 }
