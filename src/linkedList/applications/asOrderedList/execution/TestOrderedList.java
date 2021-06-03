@@ -51,5 +51,6 @@ public class TestOrderedList {
         // Remove first, last and middle elements.
         Integer first = testList.get(0);
         Integer last = testList.get(testList.size() - 1);
+        Integer middle = testList.get(testList.size() / 2);
     }
 }
