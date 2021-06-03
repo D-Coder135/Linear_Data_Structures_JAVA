@@ -23,7 +23,7 @@ public class TestOrderedList {
         for (Integer thisItem : testList) {
             System.out.println(thisItem);
             if (prevItem > thisItem) {
-
+                System.err.println("*** FAILED, value is " + thisItem);
             }
         }
     }
