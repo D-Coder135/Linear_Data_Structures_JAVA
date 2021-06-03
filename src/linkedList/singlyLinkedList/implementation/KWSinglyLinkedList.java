@@ -16,26 +16,34 @@ public class KWSinglyLinkedList<E> {
     //    The number of items in the list.
     private int size = 0;
 
-    /* Add an item to the front of the list.
-     * @param item The item to be added */
+    /**
+     * Add an item to the front of the list.
+     *
+     * @param item The item to be added
+     */
     public void addFirst(E item) {
         head = new Node<>(item, head);
         size++;
     }
 
-    /* Add a node after a given node
+    /**
+     * Add a node after a given node
+     *
      * @param node The node preceding the new item
-     * @param item The item to be inserted */
+     * @param item The item to be inserted
+     */
     private void addAfter(Node<E> node, E item) {
         node.setNext(new Node<>(item, node.getNext()));
         size++;
     }
 
-    /* Insert the specified item at index.
+    /**
+     * Insert the specified item at index.
+     *
      * @param index The position where the item is to be inserted.
-     * @param item The item to be inserted.
+     * @param item  The item to be inserted.
      * @throws IndexOutOfBoundsException if index is out of range.
-     * */
+     */
     public void add(int index, E item) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));
@@ -48,19 +56,23 @@ public class KWSinglyLinkedList<E> {
         }
     }
 
-    /* Append item to the end of the list
+    /**
+     * Append item to the end of the list
+     *
      * @param item The item to be appended.
      * @return true (as specified by the Collection interface)
-     * */
+     */
     public boolean add(E item) {
         add(size, item);
         return true;
     }
 
-    /* Remove the node after a given node
+    /**
+     * Remove the node after a given node
+     *
      * @param node The node before the one to be removed
      * @return The data from the removed node, or null if there is no node to remove.
-     * */
+     */
     private E removeAfter(Node<E> node) {
         Node<E> temp = node.getNext();
         if (temp != null) {
@@ -72,9 +84,11 @@ public class KWSinglyLinkedList<E> {
         }
     }
 
-    /* Remove the first node from the list
+    /**
+     * Remove the first node from the list
+     *
      * @return The removed node's data or null if the list is empty.
-     * */
+     */
     private E removeFirst() {
         Node<E> temp = head;
         if (head != null) {
@@ -89,10 +103,12 @@ public class KWSinglyLinkedList<E> {
         }
     }
 
-    /* Find the node at a specified position
+    /**
+     * Find the node at a specified position
+     *
      * @param index The position of the node sought
      * @return The node at index or null if it does not exist.
-     * */
+     */
     private Node<E> getNode(int index) {
         Node<E> node = head;
         for (int i = 0; i < index && node != null; i++) {
@@ -101,11 +117,13 @@ public class KWSinglyLinkedList<E> {
         return node;
     }
 
-    /* Get the data at index
+    /**
+     * Get the data at index
+     *
      * @param index The position of the data to return
      * @return The data at index
      * @throws IndexOutOfBoundsException if index is out of range
-     * */
+     */
     public E getData(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));
@@ -114,12 +132,14 @@ public class KWSinglyLinkedList<E> {
         return node.getData();
     }
 
-    /* Store a reference to anEntry in the element at position index.
-     * @param index The position of the item to change.
+    /**
+     * Store a reference to anEntry in the element at position index.
+     *
+     * @param index    The position of the item to change.
      * @param newValue The new data
      * @return The data previously stored at index.
      * @throws IndexOutOfBoundsException if index is out of range
-     * */
+     */
     public E setData(int index, E newValue) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));

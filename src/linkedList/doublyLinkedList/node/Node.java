@@ -18,20 +18,24 @@ public class Node<E> {
     /* The link to the previous node. */
     private Node<E> prev;
 
-    /* Constructor a node with the given data value.
+    /**
+     * Constructor a node with the given data value.
+     *
      * @param data The data value.
-     * */
+     */
     public Node(E data) {
         this.data = data;
         this.next = null;
         this.prev = null;
     }
 
-    /* Constructor a node with the given data value and references to the next and previous nodes.
+    /**
+     * Constructor a node with the given data value and references to the next and previous nodes.
+     *
      * @param data The data value.
      * @param next The next node.
      * @param prev The previous node.
-     * */
+     */
     public Node(E data, Node<E> next, Node<E> prev) {
         this.data = data;
         this.next = next;

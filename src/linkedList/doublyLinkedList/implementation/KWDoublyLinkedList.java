@@ -10,35 +10,39 @@ package linkedList.doublyLinkedList.implementation;
 import linkedList.doublyLinkedList.node.Node;
 
 public class KWDoublyLinkedList<E> {
-    /*
+    /**
      * This field will store the reference to the first node in the linked list. i.e head
      * */
     private Node<E> head = null;
 
-    /*
+    /**
      * This field will store the reference to the last node in the linked list. i.e tail
-     * */
+     */
     private Node<E> tail = null;
 
-    /*
+    /**
      * This field will store the current size of the linked list.
-     * */
+     */
     private int size = 0;
 
-    /* Append item to the end of the list
+    /**
+     * Append item to the end of the list
+     *
      * @param item The item to be appended.
      * @return true (as specified by the Collection interface)
-     * */
+     */
     public boolean add(E item) {
         add(size, item);
         return true;
     }
 
-    /* Insert the specified item at index.
+    /**
+     * Insert the specified item at index.
+     *
      * @param index The position where the item is to be inserted.
-     * @param item The item to be inserted.
+     * @param item  The item to be inserted.
      * @throws IndexOutOfBoundsException if index is out of range.
-     * */
+     */
     public void add(int index, E item) {
         if (index < 0 || index > size) {
             // throw the IndexOutOfBoundsException if the index given is incorrect.
@@ -59,10 +63,12 @@ public class KWDoublyLinkedList<E> {
         size++;
     }
 
-    /* Add a node after a given node
-     * @param node The node preceding the new item
-     * @param item The item to be inserted
-     * */
+    /**
+     * Add a node after a given node
+     *
+     * @param previousNode The node preceding the new item
+     * @param item         The item to be inserted
+     */
     private void addAfter(Node<E> previousNode, E item) {
         Node<E> nextNode = previousNode.getNext();
         Node<E> newNode = new Node<>(item, nextNode, previousNode);
@@ -112,10 +118,12 @@ public class KWDoublyLinkedList<E> {
         return removedValue;
     }
 
-    /* Find the node at a specified position
+    /**
+     * Find the node at a specified position
+     *
      * @param index The position of the node sought
      * @return The node at index or null if it does not exist.
-     * */
+     */
     public Node<E> getNode(int index) {
         Node<E> currentNode = head;
         for (int i = 0; i < index; i++) {
