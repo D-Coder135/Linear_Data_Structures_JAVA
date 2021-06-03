@@ -8,4 +8,9 @@
 package linkedList.applications.asOrderedList.execution;
 
 public class TestOrderedList {
+    /**
+     * Traverses ordered list and displays each element.
+     * Displays an wrror meassage if an element is out of order.
+     * @param testList An ordered list of integers
+     * */
 }
