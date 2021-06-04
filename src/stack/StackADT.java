@@ -35,6 +35,13 @@ public interface StackADT<E> {
      */
     E peek();
 
+    /**
+     * Returns the object at the top of the stack and removes it.
+     *
+     * @return The object at the top of the stack
+     * @throws NoSuchElementException if the stack is empty
+     * @post The stack is one item smaller.
+     */
     E pop();
 
     boolean isEmpty();
