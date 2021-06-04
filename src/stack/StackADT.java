@@ -16,6 +16,13 @@ package stack;
 
 public interface StackADT<E> {
 
+    /**
+     * Pushes an item onto the top of the stack and returns the item pushed.
+     *
+     * @param obj The item to be inserted
+     * @return The object inserted
+     */
+
     E push(E obj);
 
     E peek();
