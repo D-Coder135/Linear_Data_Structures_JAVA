@@ -21,4 +21,6 @@ public interface StackADT<E> {
     E peek();
 
     E pop();
+
+    boolean isEmpty();
 }
