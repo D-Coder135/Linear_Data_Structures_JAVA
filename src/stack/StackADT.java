@@ -15,4 +15,6 @@ package stack;
  */
 
 public interface StackADT<E> {
+
+    E push(E obj);
 }
