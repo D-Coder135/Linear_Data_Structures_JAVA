@@ -7,6 +7,8 @@
 
 package stack;
 
+import java.util.NoSuchElementException;
+
 /**
  * A Stack is a data structure in which objects are inserted into and remove fromt
  * the same end (i.e., Last-In, First-Out).
@@ -22,9 +24,15 @@ public interface StackADT<E> {
      * @param obj The item to be inserted
      * @return The object inserted
      */
-
     E push(E obj);
 
+    /**
+     * Returns the object at the top of the stack without removing it.
+     *
+     * @return The object at the top of the stack
+     * @throws NoSuchElementException is the stack is empty
+     * @post The stack remains unchanged.
+     */
     E peek();
 
     E pop();
