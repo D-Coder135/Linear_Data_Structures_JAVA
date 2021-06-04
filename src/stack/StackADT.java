@@ -14,5 +14,5 @@ package stack;
  * @param <E> The element type
  */
 
-public interface StackADT {
+public interface StackADT<E> {
 }
