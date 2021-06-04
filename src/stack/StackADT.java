@@ -44,5 +44,10 @@ public interface StackADT<E> {
      */
     E pop();
 
+    /**
+     * Returns true if the stack is empty; otherwise returns false.
+     *
+     * @return true (false) if the stack is empty (not empty)
+     */
     boolean isEmpty();
 }
