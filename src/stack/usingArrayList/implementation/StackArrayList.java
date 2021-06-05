@@ -56,7 +56,7 @@ public class StackArrayList<E> implements StackADT<E> {
         if (isEmpty()) {
             throw new NoSuchElementException();
         }
-        return null;
+        return theData.get(theData.size() - 1);
     }
 
     @Override
