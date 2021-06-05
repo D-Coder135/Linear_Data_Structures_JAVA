@@ -31,6 +31,26 @@ public class StackArrayList<E> implements StackADT<E> {
         this.theData = new ArrayList<>();
     }
 
+    @Override
+    public E push(E obj) {
+        return null;
+    }
+
+    @Override
+    public E peek() {
+        return null;
+    }
+
+    @Override
+    public E pop() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
     /**
      * Push an object onto the stack.
      *
