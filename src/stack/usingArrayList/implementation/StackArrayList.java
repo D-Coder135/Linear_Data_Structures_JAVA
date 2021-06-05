@@ -44,6 +44,12 @@ public class StackArrayList<E> implements StackADT<E> {
         return obj;
     }
 
+    /**
+     * Peek at the top object on the stack.
+     *
+     * @return The top object on the stack
+     * @throws java.util.NoSuchElementException if the stack is empty
+     */
     @Override
     public E peek() {
         return null;
