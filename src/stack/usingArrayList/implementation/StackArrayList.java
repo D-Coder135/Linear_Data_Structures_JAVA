@@ -59,6 +59,13 @@ public class StackArrayList<E> implements StackADT<E> {
         return theData.get(theData.size() - 1);
     }
 
+    /**
+     * Pop the top object off the stack.
+     *
+     * @return The top object, which is removed
+     * @throws NoSuchElementException if the stack is empty.
+     * @post The object at the top of the stack is removed.
+     */
     @Override
     public E pop() {
         return null;
