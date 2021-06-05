@@ -9,6 +9,8 @@ package stack.usingArrayList.implementation;
 
 import stack.StackADT;
 
+import java.util.List;
+
 /**
  * Class StackArrayList<E> implements the StackADT<E> as an adapter to the list.
  *
@@ -19,6 +21,7 @@ public class StackArrayList<E> implements StackADT {
     /**
      * The list containing the data
      */
+    private List<E> theData;
 
     @Override
     public Object push(Object obj) {
