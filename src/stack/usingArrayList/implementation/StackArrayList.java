@@ -7,5 +7,5 @@
 
 package stack.usingArrayList.implementation;
 
-public class StackArrayList {
+public class StackArrayList<E> {
 }
