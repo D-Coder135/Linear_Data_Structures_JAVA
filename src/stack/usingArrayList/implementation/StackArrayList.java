@@ -23,6 +23,10 @@ public class StackArrayList<E> implements StackADT {
      */
     private List<E> theData;
 
+    /**
+     * Construct an empty stack using an ArrayList as the container.
+     */
+
     @Override
     public Object push(Object obj) {
         return null;
