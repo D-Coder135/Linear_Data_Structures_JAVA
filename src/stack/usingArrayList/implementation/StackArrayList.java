@@ -31,7 +31,13 @@ public class StackArrayList<E> implements StackADT {
         this.theData = new ArrayList<>();
     }
 
-
+    /**
+     * Push an object onto the stack.
+     *
+     * @param obj The object to be pushed
+     * @return The object pushed
+     * @post The object is at the top of the stack.
+     */
     @Override
     public Object push(Object obj) {
         return null;
