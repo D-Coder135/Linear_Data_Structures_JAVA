@@ -31,6 +31,13 @@ public class StackArrayList<E> implements StackADT<E> {
         this.theData = new ArrayList<>();
     }
 
+    /**
+     * Push an object onto the stack.
+     *
+     * @param obj The object to be pushed
+     * @return The object pushed
+     * @post The object is at the top of the stack.
+     */
     @Override
     public E push(E obj) {
         return null;
@@ -50,12 +57,4 @@ public class StackArrayList<E> implements StackADT<E> {
     public boolean isEmpty() {
         return false;
     }
-
-    /**
-     * Push an object onto the stack.
-     *
-     * @param obj The object to be pushed
-     * @return The object pushed
-     * @post The object is at the top of the stack.
-     */
 }
