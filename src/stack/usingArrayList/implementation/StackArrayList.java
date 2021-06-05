@@ -10,4 +10,23 @@ package stack.usingArrayList.implementation;
 import stack.StackADT;
 
 public class StackArrayList<E> implements StackADT {
+    @Override
+    public Object push(Object obj) {
+        return null;
+    }
+
+    @Override
+    public Object peek() {
+        return null;
+    }
+
+    @Override
+    public Object pop() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
 }
