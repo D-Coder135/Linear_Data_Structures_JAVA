@@ -74,6 +74,11 @@ public class StackArrayList<E> implements StackADT<E> {
         return theData.remove(theData.size() - 1);
     }
 
+    /**
+     * See weather the stack is empty.
+     *
+     * @return true if the stack is empty
+     */
     @Override
     public boolean isEmpty() {
         return false;
