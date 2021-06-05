@@ -52,6 +52,9 @@ public class StackArrayList<E> implements StackADT<E> {
      */
     @Override
     public E peek() {
+        if (isEmpty()) {
+
+        }
         return null;
     }
 
