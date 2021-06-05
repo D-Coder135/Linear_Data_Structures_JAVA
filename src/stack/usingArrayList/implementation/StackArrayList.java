@@ -40,6 +40,7 @@ public class StackArrayList<E> implements StackADT<E> {
      */
     @Override
     public E push(E obj) {
+        theData.add(obj);
         return null;
     }
 
