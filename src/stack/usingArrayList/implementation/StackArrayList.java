@@ -11,6 +11,7 @@ import stack.StackADT;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 /**
  * Class StackArrayList<E> implements the StackADT<E> as an adapter to the list.
@@ -53,7 +54,7 @@ public class StackArrayList<E> implements StackADT<E> {
     @Override
     public E peek() {
         if (isEmpty()) {
-
+            throw new NoSuchElementException();
         }
         return null;
     }
