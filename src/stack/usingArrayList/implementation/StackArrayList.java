@@ -17,7 +17,7 @@ import java.util.List;
  *
  * @param <E> The type of elements in the stack.
  */
-public class StackArrayList<E> implements StackADT {
+public class StackArrayList<E> implements StackADT<E> {
 
     /**
      * The list containing the data
@@ -38,23 +38,4 @@ public class StackArrayList<E> implements StackADT {
      * @return The object pushed
      * @post The object is at the top of the stack.
      */
-    @Override
-    public Object push(Object obj) {
-        return null;
-    }
-
-    @Override
-    public Object peek() {
-        return null;
-    }
-
-    @Override
-    public Object pop() {
-        return null;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return false;
-    }
 }
