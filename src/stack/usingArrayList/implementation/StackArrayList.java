@@ -9,6 +9,12 @@ package stack.usingArrayList.implementation;
 
 import stack.StackADT;
 
+/**
+ * Class StackArrayList<E> implements the StackADT<E> as an adapter to the list.
+ *
+ * @param <E> The type of elements in the stack.
+ */
+
 public class StackArrayList<E> implements StackADT {
     @Override
     public Object push(Object obj) {
