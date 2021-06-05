@@ -7,5 +7,7 @@
 
 package stack.usingArrayList.implementation;
 
-public class StackArrayList<E> {
+import stack.StackADT;
+
+public class StackArrayList<E> implements StackADT {
 }
