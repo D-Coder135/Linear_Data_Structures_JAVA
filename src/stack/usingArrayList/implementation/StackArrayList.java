@@ -14,8 +14,12 @@ import stack.StackADT;
  *
  * @param <E> The type of elements in the stack.
  */
-
 public class StackArrayList<E> implements StackADT {
+
+    /**
+     * The list containing the data
+     */
+
     @Override
     public Object push(Object obj) {
         return null;
