@@ -81,6 +81,6 @@ public class StackArrayList<E> implements StackADT<E> {
      */
     @Override
     public boolean isEmpty() {
-        return false;
+        return theData.isEmpty();
     }
 }
