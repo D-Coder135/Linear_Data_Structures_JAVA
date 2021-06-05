@@ -9,6 +9,7 @@ package stack.usingArrayList.implementation;
 
 import stack.StackADT;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,8 +27,8 @@ public class StackArrayList<E> implements StackADT {
     /**
      * Construct an empty stack using an ArrayList as the container.
      */
-    public StackArrayList(List<E> theData) {
-        this.theData = theData;
+    public StackArrayList() {
+        this.theData = new ArrayList<>();
     }
 
 
