@@ -68,6 +68,9 @@ public class StackArrayList<E> implements StackADT<E> {
      */
     @Override
     public E pop() {
+        if (isEmpty()) {
+
+        }
         return null;
     }
 
