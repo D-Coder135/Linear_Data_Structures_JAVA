@@ -7,5 +7,8 @@
 
 package stack.usingLinkedList.implementation;
 
+/**
+ * Class to implement interface StackADT as a linked list.
+ */
 public class LinkedListStack<E> {
 }
