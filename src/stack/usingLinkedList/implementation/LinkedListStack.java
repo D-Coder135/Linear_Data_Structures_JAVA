@@ -84,7 +84,7 @@ private static class Node<E> {
     @Override
     public E peek() {
         if (isEmpty()) {
-
+            throw new NoSuchElementException();
         }
         return null;
     }
