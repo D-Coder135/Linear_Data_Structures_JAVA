@@ -18,7 +18,7 @@ import java.util.NoSuchElementException;
  *
  * @param <E> The type of elements in the stack.
  */
-public class StackArrayList<E> implements StackADT<E> {
+public class ArrayListStack<E> implements StackADT<E> {
 
     /**
      * The list containing the data
@@ -28,7 +28,7 @@ public class StackArrayList<E> implements StackADT<E> {
     /**
      * Construct an empty stack using an ArrayList as the container.
      */
-    public StackArrayList() {
+    public ArrayListStack() {
         this.theData = new ArrayList<>();
     }
 
