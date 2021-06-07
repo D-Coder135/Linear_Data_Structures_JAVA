@@ -109,6 +109,11 @@ private static class Node<E> {
         }
     }
 
+    /**
+     * See whether the stack is empty.
+     *
+     * @return true if the stack is empty
+     */
     @Override
     public boolean isEmpty() {
         return false;
