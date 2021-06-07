@@ -68,7 +68,7 @@ private static class Node<E> {
     @Override
     public E push(E obj) {
         topOfStackRef = new Node<>(obj, topOfStackRef);
-        return null;
+        return obj;
     }
 
     @Override
