@@ -15,7 +15,9 @@ import stack.StackADT;
 public class LinkedListStack<E> implements StackADT<E> {
 
 //    Inner class Node<E>.
+private class Node {
 
+}
 
     @Override
     public E push(E obj) {
