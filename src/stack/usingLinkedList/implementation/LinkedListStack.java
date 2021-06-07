@@ -83,6 +83,9 @@ private static class Node<E> {
      */
     @Override
     public E peek() {
+        if (isEmpty()) {
+
+        }
         return null;
     }
 
