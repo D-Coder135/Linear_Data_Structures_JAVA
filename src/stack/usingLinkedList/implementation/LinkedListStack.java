@@ -55,6 +55,7 @@ private static class Node<E> {
     /**
      * The reference to the first stack node.
      */
+    private Node<E> topOfStackRef = null;
     @Override
     public E push(E obj) {
         return null;
