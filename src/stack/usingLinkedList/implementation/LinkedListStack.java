@@ -7,5 +7,5 @@
 
 package stack.usingLinkedList.implementation;
 
-public class LinkedListStack {
+public class LinkedListStack<E> {
 }
