@@ -13,4 +13,23 @@ import stack.StackADT;
  * Class to implement interface StackADT as a linked list.
  */
 public class LinkedListStack<E> implements StackADT<E> {
+    @Override
+    public E push(E obj) {
+        return null;
+    }
+
+    @Override
+    public E peek() {
+        return null;
+    }
+
+    @Override
+    public E pop() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
 }
