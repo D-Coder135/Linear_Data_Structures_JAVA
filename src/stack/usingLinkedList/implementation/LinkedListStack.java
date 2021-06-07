@@ -105,8 +105,8 @@ private static class Node<E> {
         } else {
             E result = topOfStackRef.data;
             topOfStackRef = topOfStackRef.next;
+            return result;
         }
-        return null;
     }
 
     @Override
