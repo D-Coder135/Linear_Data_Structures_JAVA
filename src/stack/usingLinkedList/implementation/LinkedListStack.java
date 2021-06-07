@@ -101,7 +101,7 @@ private static class Node<E> {
     @Override
     public E pop() {
         if (isEmpty()) {
-
+            throw new NoSuchElementException();
         }
         return null;
     }
