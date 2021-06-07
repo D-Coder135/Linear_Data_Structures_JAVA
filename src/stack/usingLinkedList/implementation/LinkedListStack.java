@@ -104,6 +104,7 @@ private static class Node<E> {
             throw new NoSuchElementException();
         } else {
             E result = topOfStackRef.data;
+            topOfStackRef = topOfStackRef.next;
         }
         return null;
     }
