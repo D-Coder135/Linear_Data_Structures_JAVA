@@ -103,7 +103,7 @@ private static class Node<E> {
         if (isEmpty()) {
             throw new NoSuchElementException();
         } else {
-
+            E result = topOfStackRef.data;
         }
         return null;
     }
