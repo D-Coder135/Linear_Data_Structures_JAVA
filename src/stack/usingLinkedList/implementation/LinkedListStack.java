@@ -90,6 +90,14 @@ private static class Node<E> {
         }
     }
 
+    /**
+     * Remove and return the top item on the stack.
+     *
+     * @return The top item on the stack
+     * @throws NoSuchElementException if the stack is empty.
+     * @pre The stack is not empty.
+     * @post The top item on the stack has been removed and the stack is ont item smaller.
+     */
     @Override
     public E pop() {
         return null;
