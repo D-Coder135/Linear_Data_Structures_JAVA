@@ -116,6 +116,6 @@ private static class Node<E> {
      */
     @Override
     public boolean isEmpty() {
-        return false;
+        return topOfStackRef == null;
     }
 }
