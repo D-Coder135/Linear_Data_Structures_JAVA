@@ -71,6 +71,14 @@ private static class Node<E> {
         return obj;
     }
 
+    /**
+     * Returns the top item on the stack.
+     *
+     * @return The top item on the stack
+     * @throws java.util.NoSuchElementException if the stack is empty.
+     * @pre The stack is not empty.
+     * @post The stack remains unchanged.
+     */
     @Override
     public E peek() {
         return null;
