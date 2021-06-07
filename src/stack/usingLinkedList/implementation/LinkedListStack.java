@@ -9,6 +9,8 @@ package stack.usingLinkedList.implementation;
 
 import stack.StackADT;
 
+import java.util.NoSuchElementException;
+
 /**
  * Class to implement interface StackADT as a linked list.
  */
@@ -75,7 +77,7 @@ private static class Node<E> {
      * Returns the top item on the stack.
      *
      * @return The top item on the stack
-     * @throws java.util.NoSuchElementException if the stack is empty.
+     * @throws NoSuchElementException if the stack is empty.
      * @pre The stack is not empty.
      * @post The stack remains unchanged.
      */
