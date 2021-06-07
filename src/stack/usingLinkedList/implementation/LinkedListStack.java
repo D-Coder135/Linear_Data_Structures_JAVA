@@ -18,6 +18,8 @@ public class LinkedListStack<E> implements StackADT<E> {
 private static class Node<E> {
 
     /* The reference to the data. */
+    private E data;
+
 
 }
 
