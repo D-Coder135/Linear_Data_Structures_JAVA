@@ -50,11 +50,15 @@ private static class Node<E> {
     }
 }
 
-/* Data Fields */
-@Override
-public E push(E obj) {
-    return null;
-}
+    /* Data Fields */
+
+    /**
+     * The reference to the first stack node.
+     */
+    @Override
+    public E push(E obj) {
+        return null;
+    }
 
     @Override
     public E peek() {
