@@ -86,9 +86,8 @@ private static class Node<E> {
         if (isEmpty()) {
             throw new NoSuchElementException();
         } else {
-
+            return topOfStackRef.data;
         }
-        return null;
     }
 
     @Override
