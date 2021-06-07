@@ -102,6 +102,8 @@ private static class Node<E> {
     public E pop() {
         if (isEmpty()) {
             throw new NoSuchElementException();
+        } else {
+
         }
         return null;
     }
