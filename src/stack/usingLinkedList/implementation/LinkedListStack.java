@@ -15,7 +15,7 @@ import stack.StackADT;
 public class LinkedListStack<E> implements StackADT<E> {
 
 //    Inner class Node<E>.
-private class Node<E> {
+private static class Node<E> {
 
 }
 
