@@ -56,6 +56,15 @@ private static class Node<E> {
      * The reference to the first stack node.
      */
     private Node<E> topOfStackRef = null;
+
+    /**
+     * Insert a new item on top of the stack.
+     *
+     * @param obj The item to be inserted
+     * @return The item that was inserted.
+     * @post The new item is the top item on the stack.
+     * All other items are ine position lower.
+     */
     @Override
     public E push(E obj) {
         return null;
