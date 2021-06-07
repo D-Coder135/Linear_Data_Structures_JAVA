@@ -50,10 +50,11 @@ private static class Node<E> {
     }
 }
 
-    @Override
-    public E push(E obj) {
-        return null;
-    }
+/* Data Fields */
+@Override
+public E push(E obj) {
+    return null;
+}
 
     @Override
     public E peek() {
