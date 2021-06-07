@@ -22,6 +22,11 @@ private static class Node<E> {
 
     /* The reference to the next node. */
     private Node<E> next;
+
+    public Node(E data, Node<E> next) {
+        this.data = data;
+        this.next = next;
+    }
 }
 
     @Override
