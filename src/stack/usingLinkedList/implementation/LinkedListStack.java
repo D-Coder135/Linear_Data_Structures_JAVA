@@ -85,6 +85,8 @@ private static class Node<E> {
     public E peek() {
         if (isEmpty()) {
             throw new NoSuchElementException();
+        } else {
+
         }
         return null;
     }
