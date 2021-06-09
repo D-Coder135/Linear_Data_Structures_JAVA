@@ -28,14 +28,13 @@ public class PostfixEvaluator {
         int rhs = operandStack.pop();
         int lhs = operandStack.pop();
 
+        // Evaluate the operator.
         return switch (op) {
             case '+' -> lhs + rhs;
             case '-' -> lhs - rhs;
             case '/' -> lhs / rhs;
             case '*' -> lhs * rhs;
             default -> 0;
-
-            // Evaluate the operator.
         };
     }
 
