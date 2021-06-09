@@ -17,26 +17,11 @@ public class PostfixEvaluator {
     // Nested class
 
     /**
-     * Class to report a syntax error.
-     */
-    public static class SyntaxErrorException extends Exception {
-        /**
-         * Construct a SyntaxErrorException with the specified message.
-         *
-         * @param message The message
-         **/
-        SyntaxErrorException(String message) {
-            super(message);
-        }
-    }
-
-    // Constant
-    /**
      * A list of operators.
      */
     private static final String OPERATORS = "+-*/";
 
-    // Methods
+    // Constant
 
     private static int evalOp(char op, Deque<Integer> operandStack) {
         // Pop the two operands off the stack.
@@ -49,7 +34,24 @@ public class PostfixEvaluator {
             case '+':
                 result = lhs + rhs;
                 break;
+            case '-':
 
+        }
+    }
+
+    // Methods
+
+    /**
+     * Class to report a syntax error.
+     */
+    public static class SyntaxErrorException extends Exception {
+        /**
+         * Construct a SyntaxErrorException with the specified message.
+         *
+         * @param message The message
+         **/
+        SyntaxErrorException(String message) {
+            super(message);
         }
     }
 }
