@@ -41,7 +41,12 @@ public class PostfixEvaluator {
         return OPERATORS.indexOf(ch) != -1;
     }
 
+    public static int eval() {
+
+    }
+
     // Nested class
+
     /**
      * Class to report a syntax error.
      */
