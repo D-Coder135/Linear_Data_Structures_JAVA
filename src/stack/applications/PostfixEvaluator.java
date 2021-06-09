@@ -23,7 +23,7 @@ public class PostfixEvaluator {
          * @param message The message
          **/
         SyntaxErrorException(String message) {
-
+            super(message);
         }
     }
 }
