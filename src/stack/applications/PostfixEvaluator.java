@@ -40,6 +40,7 @@ public class PostfixEvaluator {
 
     private static int evalOp(char op, Deque<Integer> operandStack) {
         // Pop the two operands off the stack.
+        int rhs = operandStack.pop();
 
     }
 }
