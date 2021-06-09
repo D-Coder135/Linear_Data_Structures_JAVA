@@ -43,5 +43,7 @@ public class PostfixEvaluator {
         int rhs = operandStack.pop();
         int lhs = operandStack.pop();
         int result = 0;
+
+        // Evaluate the operator.
     }
 }
