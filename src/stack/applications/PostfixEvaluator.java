@@ -32,4 +32,7 @@ public class PostfixEvaluator {
      * A list of operators.
      */
     private static final String OPERATORS = "+-*/";
+
+    // Methods
+
 }
