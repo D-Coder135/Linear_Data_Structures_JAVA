@@ -9,6 +9,7 @@ package stack.applications;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.NoSuchElementException;
 
 /**
  * Class that evaluates a postfix expression.
@@ -48,6 +49,11 @@ public class PostfixEvaluator {
 
         // Process each token.
         String[] tokens = expression.split("\\s+");
+        try {
+
+        } catch (NoSuchElementException exception) {
+
+        }
     }
 
     // Nested class
