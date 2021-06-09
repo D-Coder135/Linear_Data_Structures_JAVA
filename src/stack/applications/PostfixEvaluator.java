@@ -60,6 +60,9 @@ public class PostfixEvaluator {
                     // Push value onto operand stack.
                     operandStack.push(value);
                 } // Is it an operator?
+                else if (isOperator(firstCharacter)) {
+
+                }
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
