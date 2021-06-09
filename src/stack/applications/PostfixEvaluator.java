@@ -45,5 +45,8 @@ public class PostfixEvaluator {
         int result = 0;
 
         // Evaluate the operator.
+        switch (op) {
+
+        }
     }
 }
