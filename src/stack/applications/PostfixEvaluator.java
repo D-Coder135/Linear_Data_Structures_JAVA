@@ -52,7 +52,7 @@ public class PostfixEvaluator {
         try {
 
         } catch (NoSuchElementException exception) {
-
+            throw new SyntaxErrorException("Syntax Error: Stack is empty!");
         }
     }
 
