@@ -41,7 +41,7 @@ public class PostfixEvaluator {
         return OPERATORS.indexOf(ch) != -1;
     }
 
-    public static int eval(String expression) {
+    public static int eval(String expression) throws SyntaxErrorException {
 
     }
 
