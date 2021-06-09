@@ -54,6 +54,9 @@ public class PostfixEvaluator {
                 char firstCharacter = nextToken.charAt(0);
 
                 // Does it start with a digit?
+                if (Character.isDigit(firstCharacter)) {
+
+                }
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
