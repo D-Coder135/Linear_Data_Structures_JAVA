@@ -44,6 +44,7 @@ public class PostfixEvaluator {
                 result = lhs * rhs;
                 break;
         }
+        return result;
     }
 
     // Methods
