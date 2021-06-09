@@ -27,7 +27,8 @@ public class PostfixEvaluator {
         // Pop the two operands off the stack.
         int rhs = operandStack.pop();
         int lhs = operandStack.pop();
-        int result = switch (op) {
+
+        return switch (op) {
             case '+' -> lhs + rhs;
             case '-' -> lhs - rhs;
             case '/' -> lhs / rhs;
@@ -36,8 +37,6 @@ public class PostfixEvaluator {
 
             // Evaluate the operator.
         };
-
-        return result;
     }
 
     // Methods
