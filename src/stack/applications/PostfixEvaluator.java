@@ -55,7 +55,7 @@ public class PostfixEvaluator {
 
                 // Does it start with a digit?
                 if (Character.isDigit(firstCharacter)) {
-
+                    // Get the integer value.
                 }
             }
         } catch (NoSuchElementException exception) {
