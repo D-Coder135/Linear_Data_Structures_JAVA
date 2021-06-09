@@ -24,6 +24,15 @@ public class PostfixEvaluator {
 
     // Methods
 
+    /**
+     * Evaluates the current operation.
+     * This function pops the two operands off the operand stack and applies the operator on it.
+     *
+     * @param op           A character representing the operator
+     * @param operandStack the current stack of operands
+     * @return The result of applying the operator
+     * @throws NoSuchElementException if pop is attempted on an empty stack.
+     */
     private static int evalOperation(char op, Deque<Integer> operandStack) {
         // Pop the two operands off the stack.
         int rhs = operandStack.pop();
