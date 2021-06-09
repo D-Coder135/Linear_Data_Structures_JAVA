@@ -42,7 +42,6 @@ public class PostfixEvaluator {
     }
 
     // Nested class
-
     /**
      * Class to report a syntax error.
      */
