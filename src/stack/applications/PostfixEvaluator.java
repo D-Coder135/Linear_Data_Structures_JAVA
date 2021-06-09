@@ -47,7 +47,7 @@ public class PostfixEvaluator {
         Deque<Integer> operandStack = new ArrayDeque<>();
 
         // Process each token.
-
+        String[] tokens = expression.split("\\s+");
     }
 
     // Nested class
