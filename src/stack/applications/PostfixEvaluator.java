@@ -64,6 +64,7 @@ public class PostfixEvaluator {
                     // Evaluate the operator.
                     int result = evalOperation(firstCharacter, operandStack);
                     // Push the result onto the operand stack.
+                    operandStack.push(result);
                 }
             }
         } catch (NoSuchElementException exception) {
