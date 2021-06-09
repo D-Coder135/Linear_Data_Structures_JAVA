@@ -47,6 +47,9 @@ public class PostfixEvaluator {
         // Evaluate the operator.
         switch (op) {
             case '+':
+                result = lhs + rhs;
+                break;
+
         }
     }
 }
