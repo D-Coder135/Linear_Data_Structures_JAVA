@@ -17,8 +17,13 @@ public class PostfixEvaluator {
      * Class to report a syntax error.
      */
     public static class SyntaxErrorException extends Exception {
-        /** Construct a SyntaxErrorException with the specified message.
-         *  @param message The message
+        /**
+         * Construct a SyntaxErrorException with the specified message.
+         *
+         * @param message The message
          **/
+        SyntaxErrorException(String message) {
+
+        }
     }
 }
