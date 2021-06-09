@@ -38,7 +38,7 @@ public class PostfixEvaluator {
     }
 
     private static boolean isOperator(char ch) {
-
+        return OPERATORS.indexOf(ch) != -1;
     }
 
     // Nested class
