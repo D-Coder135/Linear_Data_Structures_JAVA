@@ -70,6 +70,8 @@ public class PostfixEvaluator {
                     throw new SyntaxErrorException("Invalid character encountered: " + firstCharacter);
                 }
             }
+
+            // No more tokens - pop result from the operand stack.
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
         }
