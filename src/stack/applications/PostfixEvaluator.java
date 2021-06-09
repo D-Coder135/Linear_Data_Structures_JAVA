@@ -59,7 +59,7 @@ public class PostfixEvaluator {
                     int value = Integer.parseInt(nextToken);
                     // Push value onto operand stack.
                     operandStack.push(value);
-                }
+                } // Is it an operator?
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
