@@ -58,6 +58,7 @@ public class PostfixEvaluator {
                     // Get the integer value.
                     int value = Integer.parseInt(nextToken);
                     // Push value onto operand stack.
+                    operandStack.push(value);
                 }
             }
         } catch (NoSuchElementException exception) {
