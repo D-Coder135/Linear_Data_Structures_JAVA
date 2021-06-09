@@ -61,7 +61,7 @@ public class PostfixEvaluator {
                     operandStack.push(value);
                 } // Is it an operator?
                 else if (isOperator(firstCharacter)) {
-
+                    // Evaluate the operator.
                 }
             }
         } catch (NoSuchElementException exception) {
