@@ -28,5 +28,8 @@ public class PostfixEvaluator {
     }
 
     // Constant
-    /** A list of operators. */
+    /**
+     * A list of operators.
+     */
+    private static final String OPERATORS = "+-*/";
 }
