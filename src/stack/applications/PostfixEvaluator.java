@@ -14,14 +14,13 @@ import java.util.Deque;
  */
 public class PostfixEvaluator {
 
-    // Nested class
-
+    // Constant
     /**
      * A list of operators.
      */
     private static final String OPERATORS = "+-*/";
 
-    // Constant
+    // Methods
 
     private static int evalOp(char op, Deque<Integer> operandStack) {
         // Pop the two operands off the stack.
@@ -38,8 +37,7 @@ public class PostfixEvaluator {
         };
     }
 
-    // Methods
-
+    // Nested class
     /**
      * Class to report a syntax error.
      */
