@@ -67,6 +67,7 @@ public class PostfixEvaluator {
                     operandStack.push(result);
                 } else {
                     // Invalid Character.
+                    throw new SyntaxErrorException("Invalid character encountered: " + firstCharacter);
                 }
             }
         } catch (NoSuchElementException exception) {
