@@ -37,7 +37,7 @@ public class PostfixEvaluator {
         };
     }
 
-    private static boolean isOperator() {
+    private static boolean isOperator(char ch) {
 
     }
 
