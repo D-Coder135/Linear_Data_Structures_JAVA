@@ -7,5 +7,8 @@
 
 package stack.applications;
 
+/**
+ * Class that evaluates a postfix expression.
+ */
 public class PostfixEvaluator {
 }
