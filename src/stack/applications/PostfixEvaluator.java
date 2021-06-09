@@ -75,6 +75,9 @@ public class PostfixEvaluator {
             int answer = operandStack.pop();
 
             // Operand stack should be empty.
+            if (operandStack.isEmpty()) {
+
+            }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
         }
