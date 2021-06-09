@@ -22,7 +22,7 @@ public class PostfixEvaluator {
 
     // Methods
 
-    private static int evalOp(char op, Deque<Integer> operandStack) {
+    private static int evalOperation(char op, Deque<Integer> operandStack) {
         // Pop the two operands off the stack.
         int rhs = operandStack.pop();
         int lhs = operandStack.pop();
