@@ -42,6 +42,7 @@ public class PostfixEvaluator {
     }
 
     public static int eval(String expression) throws SyntaxErrorException {
+        // Create an empty stack.
 
     }
 
