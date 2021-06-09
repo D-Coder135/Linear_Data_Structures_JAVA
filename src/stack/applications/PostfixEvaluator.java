@@ -72,6 +72,7 @@ public class PostfixEvaluator {
             }
 
             // No more tokens - pop result from the operand stack.
+            int answer = operandStack.pop();
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
         }
