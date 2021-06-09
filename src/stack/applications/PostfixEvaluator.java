@@ -37,7 +37,12 @@ public class PostfixEvaluator {
         };
     }
 
+    private static boolean isOperator() {
+
+    }
+
     // Nested class
+
     /**
      * Class to report a syntax error.
      */
