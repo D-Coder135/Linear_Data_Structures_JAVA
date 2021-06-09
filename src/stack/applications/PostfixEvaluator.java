@@ -79,6 +79,7 @@ public class PostfixEvaluator {
                 return answer;
             } else {
                 // Indicate Syntax Error.
+                throw new SyntaxErrorException("Syntax Error: Stack should be empty!");
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
