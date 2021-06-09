@@ -63,6 +63,7 @@ public class PostfixEvaluator {
                 else if (isOperator(firstCharacter)) {
                     // Evaluate the operator.
                     int result = evalOperation(firstCharacter, operandStack);
+                    // Push the result onto the operand stack.
                 }
             }
         } catch (NoSuchElementException exception) {
