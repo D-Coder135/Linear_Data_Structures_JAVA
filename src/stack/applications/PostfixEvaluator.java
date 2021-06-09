@@ -13,5 +13,10 @@ package stack.applications;
 public class PostfixEvaluator {
 
     // Nested class
-    /** Class to report a syntax error. */
+    /**
+     * Class to report a syntax error.
+     */
+    public static class SyntaxErrorException {
+
+    }
 }
