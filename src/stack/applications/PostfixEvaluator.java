@@ -46,7 +46,7 @@ public class PostfixEvaluator {
 
         // Evaluate the operator.
         switch (op) {
-
+            case '+':
         }
     }
 }
