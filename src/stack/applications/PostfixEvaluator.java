@@ -43,6 +43,13 @@ public class PostfixEvaluator {
         return OPERATORS.indexOf(ch) != -1;
     }
 
+    /**
+     * Evaluates a postfix expression.
+     *
+     * @param expression The expression to evaluated
+     * @return The value of the expression
+     * @throws SyntaxErrorException if a syntax error is detected.
+     */
     public static int eval(String expression) throws SyntaxErrorException {
         // Create an empty stack.
         Deque<Integer> operandStack = new ArrayDeque<>();
@@ -88,7 +95,6 @@ public class PostfixEvaluator {
     }
 
     // Nested class
-
     /**
      * Class to report a syntax error.
      */
