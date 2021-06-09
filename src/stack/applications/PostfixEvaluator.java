@@ -39,6 +39,12 @@ public class PostfixEvaluator {
         };
     }
 
+    /**
+     * Determines whether a character is an operator.
+     *
+     * @param ch The character to be tested.
+     * @return true if the character is an operator
+     */
     private static boolean isOperator(char ch) {
         return OPERATORS.indexOf(ch) != -1;
     }
