@@ -7,12 +7,15 @@
 
 package stack.applications;
 
+import java.util.Deque;
+
 /**
  * Class that evaluates a postfix expression.
  */
 public class PostfixEvaluator {
 
     // Nested class
+
     /**
      * Class to report a syntax error.
      */
@@ -35,7 +38,7 @@ public class PostfixEvaluator {
 
     // Methods
 
-    private static int evalOp() {
+    private static int evalOp(char op, Deque<Integer> operandStack) {
 
     }
 }
