@@ -37,6 +37,8 @@ public class PostfixEvaluator {
             case '-':
                 result = lhs - rhs;
                 break;
+            case '/':
+
         }
     }
 
