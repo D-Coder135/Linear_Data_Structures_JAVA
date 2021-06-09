@@ -50,7 +50,9 @@ public class PostfixEvaluator {
         // Process each token.
         String[] tokens = expression.split("\\s+");
         try {
+            for (String nextToken : tokens) {
 
+            }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: Stack is empty!");
         }
