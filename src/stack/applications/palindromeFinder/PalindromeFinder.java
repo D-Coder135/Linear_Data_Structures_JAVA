@@ -41,7 +41,7 @@ public class PalindromeFinder {
         Deque<Character> charStack = fillStack(inputString);
         StringBuilder result = new StringBuilder();
         while (charStack.isEmpty()) {
-
+            result.append(charStack.pop());
         }
     }
 }
