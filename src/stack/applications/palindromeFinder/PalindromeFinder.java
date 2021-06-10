@@ -37,7 +37,7 @@ public class PalindromeFinder {
      * @return The string containing the characters in the stack.
      * @post The stack is empty.
      */
-    private static String buildReverse() {
+    private static String buildReverse(String inputString) {
 
     }
 }
