@@ -20,7 +20,6 @@ public class PalindromeFinder {
      * @param inputString the string to be checked.
      * @return a stack of characters in inputString.
      */
-    private static Deque<Character> fillStack() {
-
+    private static Deque<Character> fillStack(String inputString) {
     }
 }
