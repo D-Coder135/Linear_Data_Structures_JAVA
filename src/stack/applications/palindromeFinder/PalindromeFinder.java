@@ -7,14 +7,20 @@
 
 package stack.applications.palindromeFinder;
 
+import java.util.Deque;
+
 /**
  * Class with methods to check whether a string is a palindrome.
  */
 public class PalindromeFinder {
 
     /**
-     *  Fills a stack of characters from an input string.
+     * Fills a stack of characters from an input string.
+     *
      * @param inputString the string to be checked.
      * @return a stack of characters in inputString.
-     * */
+     */
+    private static Deque<Character> fillStack() {
+
+    }
 }
