@@ -26,5 +26,6 @@ public class PalindromeFinder {
         for (int i = 0; i < inputString.length(); i++) {
             charStack.push(inputString.charAt(i));
         }
+        return charStack;
     }
 }
