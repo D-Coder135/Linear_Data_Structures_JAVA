@@ -43,5 +43,6 @@ public class PalindromeFinder {
         while (charStack.isEmpty()) {
             result.append(charStack.pop());
         }
+        return result.toString();
     }
 }
