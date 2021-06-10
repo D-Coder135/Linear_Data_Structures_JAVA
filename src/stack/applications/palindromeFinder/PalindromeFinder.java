@@ -48,7 +48,11 @@ public class PalindromeFinder {
 
     /**
      * Calls buildReverse and compares its result to inputString.
+     *
      * @param inputString the string to be checked.
      * @return true if inputString is a palindrome, false if not.
-     * */
+     */
+    public static boolean isPalindrome() {
+
+    }
 }
