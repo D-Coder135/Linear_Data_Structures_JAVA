@@ -5,7 +5,7 @@
  *   File: PostfixEvaluator.java
  */
 
-package stack.applications;
+package stack.applications.postFixEvaluator;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -23,7 +23,6 @@ public class PostfixEvaluator {
     private static final String OPERATORS = "+-*/";
 
     // Methods
-
     /**
      * Evaluates the current operation.
      * This function pops the two operands off the operand stack and applies the operator on it.
