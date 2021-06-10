@@ -7,6 +7,7 @@
 
 package stack.applications.palindromeFinder;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
@@ -21,5 +22,6 @@ public class PalindromeFinder {
      * @return a stack of characters in inputString.
      */
     private static Deque<Character> fillStack(String inputString) {
+        Deque<Character> charStack = new ArrayDeque<>();
     }
 }
