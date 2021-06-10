@@ -7,5 +7,8 @@
 
 package stack.applications.palindromeFinder;
 
+/**
+ * Class with methods to check whether a string is a palindrome.
+ */
 public class PalindromeFinder {
 }
