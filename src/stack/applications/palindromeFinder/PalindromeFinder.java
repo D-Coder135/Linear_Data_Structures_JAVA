@@ -52,7 +52,7 @@ public class PalindromeFinder {
      * @param inputString the string to be checked.
      * @return true if inputString is a palindrome, false if not.
      */
-    public static boolean isPalindrome() {
+    public static boolean isPalindrome(String inputString) {
 
     }
 }
