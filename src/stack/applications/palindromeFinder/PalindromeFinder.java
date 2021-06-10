@@ -28,4 +28,11 @@ public class PalindromeFinder {
         }
         return charStack;
     }
+
+    /**
+     * Builds the reverse of a string by calling the fillStack to push its characters onto a stack and then popping
+     * them and appending then to a new string.
+     * @post The stack is empty.
+     * @return The string containing the characters in the stack.
+     * */
 }
