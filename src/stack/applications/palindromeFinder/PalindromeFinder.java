@@ -38,6 +38,6 @@ public class PalindromeFinder {
      * @post The stack is empty.
      */
     private static String buildReverse(String inputString) {
-
+        Deque<Character> charStack = fillStack(inputString);
     }
 }
