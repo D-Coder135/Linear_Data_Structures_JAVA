@@ -23,8 +23,8 @@ public class PalindromeFinder {
      */
     private static Deque<Character> fillStack(String inputString) {
         Deque<Character> charStack = new ArrayDeque<>();
-        for (int i = 0; i < inputString.length(); i++) {
-            charStack.push(inputString.charAt(i));
+        for (int index = 0; index < inputString.length(); index++) {
+            charStack.push(inputString.charAt(index));
         }
         return charStack;
     }
