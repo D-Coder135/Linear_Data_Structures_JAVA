@@ -53,6 +53,6 @@ public class PalindromeFinder {
      * @return true if inputString is a palindrome, false if not.
      */
     public static boolean isPalindrome(String inputString) {
-
+        return inputString.equalsIgnoreCase(buildReverse(inputString));
     }
 }
