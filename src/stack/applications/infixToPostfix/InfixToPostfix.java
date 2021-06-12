@@ -61,7 +61,7 @@ public class InfixToPostfix {
      * @return the equivalent postfix expression.
      * @throws SyntaxErrorException
      */
-    public static String convert(String infix) {
+    public static String convert(String infix) throws SyntaxErrorException {
 
     }
 }
