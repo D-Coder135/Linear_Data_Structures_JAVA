@@ -27,4 +27,7 @@ public class InfixToPostfix {
             super(message);
         }
     }
+
+    // Data Fields
+
 }
