@@ -23,5 +23,8 @@ public class InfixToPostfix {
          *
          * @param message The message
          **/
+        SyntaxErrorException(String message) {
+
+        }
     }
 }
