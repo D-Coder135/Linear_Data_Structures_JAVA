@@ -71,6 +71,6 @@ public class InfixToPostfix {
      * Return the final postfix string.
      */
     private String getPostfix() {
-
+        return POSTFIX.toString();
     }
 }
