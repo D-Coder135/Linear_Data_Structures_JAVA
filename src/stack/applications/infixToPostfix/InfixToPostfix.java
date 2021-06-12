@@ -7,6 +7,9 @@
 
 package stack.applications.infixToPostfix;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * Translates an infix expression to a postfix expression.
  */
@@ -29,5 +32,8 @@ public class InfixToPostfix {
     }
 
     // Data Fields
-    /** The operator stack. */
+    /**
+     * The operator stack.
+     */
+    private final Deque<Character> operatorStack = new ArrayDeque<>();
 }
