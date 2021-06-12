@@ -84,6 +84,6 @@ public class InfixToPostfix {
      * @pre operator stack is empty
      * @post postFix contains postfix expression and stack is empty
      */
-    private void convertToPostfix(String infix) {
+    private void convertToPostfix(String infix) throws SyntaxErrorException {
     }
 }
