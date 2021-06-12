@@ -37,5 +37,8 @@ public class InfixToPostfix {
      */
     private final Deque<Character> operatorStack = new ArrayDeque<>();
 
-    /** The operators */
+    /**
+     * The operators
+     */
+    private static final String OPERATORS = "+-&/";
 }
