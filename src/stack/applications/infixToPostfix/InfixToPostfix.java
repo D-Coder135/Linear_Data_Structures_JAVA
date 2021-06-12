@@ -52,4 +52,11 @@ public class InfixToPostfix {
      * The postfix string.
      */
     private final StringJoiner POSTFIX = new StringJoiner(" ");
+
+    /** Convert a string from infix to  postfix. Public covert is called by a client - Calls private method
+     * convertToPostfix to do the conversion.
+     * @param infix The infix expression
+     * @throws SyntaxErrorException
+     * @return the equivalent postfix expression.
+     * */
 }
