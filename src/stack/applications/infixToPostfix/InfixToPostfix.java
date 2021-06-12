@@ -13,5 +13,7 @@ package stack.applications.infixToPostfix;
 public class InfixToPostfix {
 
     // Nested class
-
+    /**
+     * Class to report a syntax error.
+     */
 }
