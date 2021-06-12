@@ -9,6 +9,7 @@ package stack.applications.infixToPostfix;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.StringJoiner;
 
 /**
  * Translates an infix expression to a postfix expression.
@@ -47,5 +48,8 @@ public class InfixToPostfix {
      */
     private static final int[] PRECEDENCE = {1, 1, 2, 2};
 
-    /** The postfix string. */
+    /**
+     * The postfix string.
+     */
+    private final StringJoiner POSTFIX = new StringJoiner(" ");
 }
