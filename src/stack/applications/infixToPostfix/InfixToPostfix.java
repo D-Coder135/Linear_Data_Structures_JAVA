@@ -17,7 +17,7 @@ public class InfixToPostfix {
     /**
      * Class to report a syntax error.
      */
-    public static class SyntaxErrorException {
+    public static class SyntaxErrorException extends Exception {
 
     }
 }
