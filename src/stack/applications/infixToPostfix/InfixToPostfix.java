@@ -62,6 +62,6 @@ public class InfixToPostfix {
      * @throws SyntaxErrorException
      */
     public static String convert(String infix) throws SyntaxErrorException {
-
+        InfixToPostfix infixToPostfix = new InfixToPostfix();
     }
 }
