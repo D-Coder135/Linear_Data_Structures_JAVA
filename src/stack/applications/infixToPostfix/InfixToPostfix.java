@@ -11,4 +11,7 @@ package stack.applications.infixToPostfix;
  * Translates an infix expression to a postfix expression.
  */
 public class InfixToPostfix {
+
+    // Nested class
+
 }
