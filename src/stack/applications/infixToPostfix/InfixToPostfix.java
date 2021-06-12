@@ -42,5 +42,8 @@ public class InfixToPostfix {
      */
     private static final String OPERATORS = "+-&/";
 
-    /** The precedence of the operators matches order in OPERATORS. */
+    /**
+     * The precedence of the operators matches order in OPERATORS.
+     */
+    private static final int[] PRECEDENCE = {1, 1, 2, 2};
 }
