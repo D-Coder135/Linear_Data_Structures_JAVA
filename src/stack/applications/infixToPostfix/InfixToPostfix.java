@@ -29,5 +29,5 @@ public class InfixToPostfix {
     }
 
     // Data Fields
-
+    /** The operator stack. */
 }
