@@ -36,7 +36,7 @@ public class InfixToPostfix {
     /**
      * The operator stack.
      */
-    private final Deque<Character> operatorStack = new ArrayDeque<>();
+    private final Deque<Character> OPERATOR_STACK = new ArrayDeque<>();
 
     /**
      * The operators
