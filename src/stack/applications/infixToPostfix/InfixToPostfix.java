@@ -67,5 +67,10 @@ public class InfixToPostfix {
         return infixToPostfix.getPostfix();
     }
 
-    /** Return the final postfix string. */
+    /**
+     * Return the final postfix string.
+     */
+    private String getPostfix() {
+
+    }
 }
