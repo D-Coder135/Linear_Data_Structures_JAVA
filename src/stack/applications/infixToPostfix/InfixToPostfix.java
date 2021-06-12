@@ -78,9 +78,13 @@ public class InfixToPostfix {
      * Convert a string from infix to postfix. Public convert is called by a client - Calls private method
      * convertToPostfix to do the conversion.
      * Uses a stack to convert an infix expression to postfix.
-     * @pre operator stack is empty
-     * @post postFix contains postfix expression and stack is empty
+     *
      * @param infix the string to be converted
      * @throws SyntaxErrorException if argument is invalid
-     * */
+     * @pre operator stack is empty
+     * @post postFix contains postfix expression and stack is empty
+     */
+    private void convertToPostfix() {
+
+    }
 }
