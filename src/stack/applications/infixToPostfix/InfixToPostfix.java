@@ -85,5 +85,6 @@ public class InfixToPostfix {
      * @post postFix contains postfix expression and stack is empty
      */
     private void convertToPostfix(String infix) throws SyntaxErrorException {
+        String[] tokens = infix.split("\\s+");
     }
 }
