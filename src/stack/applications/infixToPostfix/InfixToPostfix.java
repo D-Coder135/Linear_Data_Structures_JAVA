@@ -90,7 +90,7 @@ public class InfixToPostfix {
         try {
             // Process each token in the infix string.
             for (String nextToken : tokens) {
-
+                char firstChar = nextToken.charAt(0);
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
