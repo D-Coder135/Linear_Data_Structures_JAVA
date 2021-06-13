@@ -90,7 +90,7 @@ public class InfixToPostfix {
         try {
 
         } catch (NoSuchElementException exception) {
-
+            throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
         }
     }
 }
