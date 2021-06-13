@@ -132,6 +132,9 @@ public class InfixToPostfix {
                 while (!OPERATOR_STACK.isEmpty() && precedence(op) <= precedence(topOp)) {
                     OPERATOR_STACK.pop();
                     POSTFIX.add(Character.toString(topOp));
+                    if (!OPERATOR_STACK.isEmpty()) {
+
+                    }
                 }
             }
         }
