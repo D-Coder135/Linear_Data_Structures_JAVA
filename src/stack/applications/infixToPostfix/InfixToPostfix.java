@@ -98,6 +98,8 @@ public class InfixToPostfix {
                 } // Is it an operator?
                 else if (isOperator(firstChar)) {
                     processOperator(firstChar);
+                } else {
+
                 }
             }
         } catch (NoSuchElementException exception) {
