@@ -9,6 +9,7 @@ package stack.applications.infixToPostfix;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.NoSuchElementException;
 import java.util.StringJoiner;
 
 /**
@@ -88,7 +89,7 @@ public class InfixToPostfix {
         String[] tokens = infix.split("\\s+");
         try {
 
-        } catch () {
+        } catch (NoSuchElementException exception) {
 
         }
     }
