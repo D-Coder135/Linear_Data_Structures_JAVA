@@ -119,7 +119,7 @@ public class InfixToPostfix {
      * @param op The operator
      * @throws NoSuchElementException
      */
-    private void processOperator() {
+    private void processOperator(char op) {
 
     }
 }
