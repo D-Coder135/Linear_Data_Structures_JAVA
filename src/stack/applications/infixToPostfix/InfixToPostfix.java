@@ -128,7 +128,7 @@ public class InfixToPostfix {
             if (precedence(op) > precedence(topOp)) {
                 OPERATOR_STACK.push(op);
             } else {
-
+                // Pop all stacked operators with equal or high precedence than op.
             }
         }
     }
