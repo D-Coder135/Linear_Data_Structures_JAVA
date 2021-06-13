@@ -123,7 +123,7 @@ public class InfixToPostfix {
         if (OPERATOR_STACK.isEmpty()) {
             OPERATOR_STACK.push(op);
         } else {
-
+            // Peek the operator stack and let topOp be top operator.
         }
     }
 }
