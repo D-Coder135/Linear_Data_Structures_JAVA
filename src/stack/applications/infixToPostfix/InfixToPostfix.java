@@ -112,4 +112,9 @@ public class InfixToPostfix {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
         }
     }
+
+    /** Method to process operators.
+     * @param op The operator
+     * @throws NoSuchElementException
+     * */
 }
