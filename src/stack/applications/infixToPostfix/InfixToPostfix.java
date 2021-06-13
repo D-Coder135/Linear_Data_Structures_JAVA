@@ -94,7 +94,7 @@ public class InfixToPostfix {
 
                 // Is it an operand?
                 if (Character.isJavaIdentifierStart(firstChar) || Character.isDigit(firstChar)) {
-
+                    POSTFIX.add(nextToken);
                 }
             }
         } catch (NoSuchElementException exception) {
