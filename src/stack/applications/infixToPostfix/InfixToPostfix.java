@@ -134,6 +134,7 @@ public class InfixToPostfix {
                     POSTFIX.add(Character.toString(topOp));
                     if (!OPERATOR_STACK.isEmpty()) {
                         // Reset topOp
+                        topOp = OPERATOR_STACK.peek();
                     }
                 }
             }
