@@ -148,7 +148,7 @@ public class InfixToPostfix {
      * @param ch The character to be tested.
      * @return True if ch is an operator
      */
-    private static boolean isOperator() {
+    private static boolean isOperator(char ch) {
 
     }
 }
