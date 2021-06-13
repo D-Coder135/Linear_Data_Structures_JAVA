@@ -154,7 +154,11 @@ public class InfixToPostfix {
 
     /**
      * Determine the precedence of an operator.
+     *
      * @param op The operator
      * @return the precedence
-     * */
+     */
+    private static int precedence() {
+
+    }
 }
