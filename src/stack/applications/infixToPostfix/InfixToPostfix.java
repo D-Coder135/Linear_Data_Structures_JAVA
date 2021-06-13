@@ -125,6 +125,9 @@ public class InfixToPostfix {
         } else {
             // Peek the operator stack and let topOp be top operator.
             char topOp = OPERATOR_STACK.peek();
+            if (precedence(op) > precedence(topOp)) {
+
+            }
         }
     }
 }
