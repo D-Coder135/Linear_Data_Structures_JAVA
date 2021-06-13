@@ -149,6 +149,6 @@ public class InfixToPostfix {
      * @return True if ch is an operator
      */
     private static boolean isOperator(char ch) {
-
+        return OPERATORS.indexOf(ch) != -1;
     }
 }
