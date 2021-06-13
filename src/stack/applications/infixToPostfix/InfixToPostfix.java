@@ -97,7 +97,7 @@ public class InfixToPostfix {
                     POSTFIX.add(nextToken);
                 } // Is it an operator?
                 else if (isOperator(firstChar)) {
-
+                    processOperator(firstChar);
                 }
             }
         } catch (NoSuchElementException exception) {
