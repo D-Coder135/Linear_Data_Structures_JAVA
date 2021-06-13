@@ -159,6 +159,6 @@ public class InfixToPostfix {
      * @return the precedence
      */
     private static int precedence(char op) {
-
+        return PRECEDENCE[OPERATORS.indexOf(op)];
     }
 }
