@@ -99,7 +99,7 @@ public class InfixToPostfix {
                 else if (isOperator(firstChar)) {
                     processOperator(firstChar);
                 } else {
-
+                    throw new SyntaxErrorException("Unexpected Error Encountered: " + firstChar);
                 }
             }
         } catch (NoSuchElementException exception) {
