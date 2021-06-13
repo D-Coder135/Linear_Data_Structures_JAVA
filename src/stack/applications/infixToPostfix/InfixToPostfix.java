@@ -88,7 +88,7 @@ public class InfixToPostfix {
     private void convertToPostfix(String infix) throws SyntaxErrorException {
         String[] tokens = infix.split("\\s+");
         try {
-
+            // Process each token in the infix string.
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
         }
