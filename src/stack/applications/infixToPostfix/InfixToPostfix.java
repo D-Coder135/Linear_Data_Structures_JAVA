@@ -96,6 +96,9 @@ public class InfixToPostfix {
                 if (Character.isJavaIdentifierStart(firstChar) || Character.isDigit(firstChar)) {
                     POSTFIX.add(nextToken);
                 } // Is it an operator?
+                else if (isOperator(firstChar)) {
+
+                }
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
