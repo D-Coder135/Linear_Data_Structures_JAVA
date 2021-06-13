@@ -105,7 +105,7 @@ public class InfixToPostfix {
 
             // Pop any remaining operators and append them to postfix.
             while (!OPERATOR_STACK.isEmpty()) {
-
+                char op = OPERATOR_STACK.pop();
             }
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
