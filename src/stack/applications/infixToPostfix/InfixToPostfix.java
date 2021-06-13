@@ -141,4 +141,10 @@ public class InfixToPostfix {
             }
         }
     }
+
+    /**
+     * Determine whether a character is an operator.
+     * @param  ch The character to be tested.
+     * @return True if ch is an operator
+     * */
 }
