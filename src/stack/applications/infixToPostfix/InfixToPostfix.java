@@ -102,6 +102,8 @@ public class InfixToPostfix {
                     throw new SyntaxErrorException("Unexpected Error Encountered: " + firstChar);
                 }
             }
+
+            // Pop any remaining operators and append them to postfix.
         } catch (NoSuchElementException exception) {
             throw new SyntaxErrorException("Syntax Error: The Stack is empty!");
         }
