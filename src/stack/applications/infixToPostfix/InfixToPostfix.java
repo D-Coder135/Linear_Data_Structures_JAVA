@@ -117,7 +117,7 @@ public class InfixToPostfix {
      * Method to process operators.
      *
      * @param op The operator
-     * @throws NoSuchElementException
+     * @throws NoSuchElementException if argument is invalid
      */
     private void processOperator(char op) throws NoSuchElementException {
         if (OPERATOR_STACK.isEmpty()) {
