@@ -120,6 +120,8 @@ public class InfixToPostfix {
      * @throws NoSuchElementException
      */
     private void processOperator(char op) throws NoSuchElementException {
+        if (OPERATOR_STACK.isEmpty()) {
 
+        }
     }
 }
