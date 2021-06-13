@@ -113,8 +113,13 @@ public class InfixToPostfix {
         }
     }
 
-    /** Method to process operators.
+    /**
+     * Method to process operators.
+     *
      * @param op The operator
      * @throws NoSuchElementException
-     * */
+     */
+    private void processOperator() {
+
+    }
 }
