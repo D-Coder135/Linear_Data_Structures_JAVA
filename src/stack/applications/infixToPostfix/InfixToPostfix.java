@@ -133,7 +133,7 @@ public class InfixToPostfix {
                     OPERATOR_STACK.pop();
                     POSTFIX.add(Character.toString(topOp));
                     if (!OPERATOR_STACK.isEmpty()) {
-
+                        // Reset topOp
                     }
                 }
             }
