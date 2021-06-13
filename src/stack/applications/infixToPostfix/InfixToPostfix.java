@@ -59,7 +59,7 @@ public class InfixToPostfix {
      *
      * @param infix The infix expression
      * @return the equivalent postfix expression.
-     * @throws SyntaxErrorException
+     * @throws SyntaxErrorException if argument is invalid
      */
     public static String convert(String infix) throws SyntaxErrorException {
         InfixToPostfix infixToPostfix = new InfixToPostfix();
