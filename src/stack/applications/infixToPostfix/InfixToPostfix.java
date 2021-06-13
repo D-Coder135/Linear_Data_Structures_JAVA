@@ -151,4 +151,10 @@ public class InfixToPostfix {
     private static boolean isOperator(char ch) {
         return OPERATORS.indexOf(ch) != -1;
     }
+
+    /**
+     * Determine the precedence of an operator.
+     * @param op The operator
+     * @return the precedence
+     * */
 }
