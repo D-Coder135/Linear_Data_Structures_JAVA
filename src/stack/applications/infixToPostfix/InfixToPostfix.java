@@ -130,7 +130,7 @@ public class InfixToPostfix {
             } else {
                 // Pop all stacked operators with equal or high precedence than op.
                 while (!OPERATOR_STACK.isEmpty() && precedence(op) <= precedence(topOp)) {
-
+                    OPERATOR_STACK.pop();
                 }
             }
         }
