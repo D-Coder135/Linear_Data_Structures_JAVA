@@ -134,9 +134,7 @@ public class InfixToPostfix {
         } else {
             // Peek the operator stack and let topOp be top operator.
             char topOp = OPERATOR_STACK.peek();
-            if (precedence(op) > precedence(topOp)) {
-                OPERATOR_STACK.push(op);
-            } else {
+            if (precedence(op) <= precedence(topOp)) {
                 // Pop all stacked operators with equal or high precedence than op.
                 while (!OPERATOR_STACK.isEmpty() && precedence(op) <= precedence(topOp)) {
                     OPERATOR_STACK.pop();
@@ -150,8 +148,8 @@ public class InfixToPostfix {
                         topOp = OPERATOR_STACK.peek();
                     }
                 }
-                OPERATOR_STACK.push(op);
             }
+            OPERATOR_STACK.push(op);
         }
     }
 
