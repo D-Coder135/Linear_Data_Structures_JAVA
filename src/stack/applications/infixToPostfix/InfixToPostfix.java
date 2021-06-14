@@ -149,10 +149,9 @@ public class InfixToPostfix {
                     }
                 }
                 if (op != ')') {
-
+                    OPERATOR_STACK.push(op);
                 }
             }
-            OPERATOR_STACK.push(op);
         }
     }
 
