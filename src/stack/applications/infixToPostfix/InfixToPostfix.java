@@ -50,7 +50,7 @@ public class InfixToPostfix {
      * The pattern to extract tokens.
      * A token is either a number, an identifier, or an operator.
      */
-    private static final String PATTERN = "\\d+\\\\.\\\\d*|\\\\d+|" + "\\\\p{L}[\\\\p{L}\\\\p{N}]*" + "|[" + OPERATORS + "]";
+    private static final String PATTERN = "\\d+\\.\\d*|\\d+|" + "\\p{L}[\\p{L}\\p{N}]*" + "|[" + OPERATORS + "]";
 
     /**
      * The postfix string.
@@ -89,7 +89,7 @@ public class InfixToPostfix {
      * @post postFix contains postfix expression and stack is empty
      */
     private void convertToPostfix(String infix) throws SyntaxErrorException {
-        String[] tokens = infix.split("\\s+");
+//        String[] tokens = infix.split("\\s+");
         try {
             // Process each token in the infix string.
             String nextToken;
