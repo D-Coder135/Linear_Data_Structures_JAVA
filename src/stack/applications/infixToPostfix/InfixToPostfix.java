@@ -98,7 +98,7 @@ public class InfixToPostfix {
                 char firstChar = nextToken.charAt(0);
 
                 // Is it an operand?
-                if (Character.isJavaIdentifierStart(firstChar) || Character.isDigit(firstChar)) {
+                if (Character.isLetter(firstChar) || Character.isDigit(firstChar)) {
                     POSTFIX.add(nextToken);
                 } // Is it an operator?
                 else if (isOperator(firstChar)) {
