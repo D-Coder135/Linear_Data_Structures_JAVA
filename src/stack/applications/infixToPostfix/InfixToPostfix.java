@@ -113,7 +113,7 @@ public class InfixToPostfix {
                 char op = OPERATOR_STACK.pop();
                 // Any '(' on the stack is not matched.
                 if (op == '(') {
-
+                    throw new SyntaxErrorException("Unmatched opening parenthesis!");
                 }
                 POSTFIX.add(Character.toString(op));
             }
