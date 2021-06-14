@@ -141,7 +141,7 @@ public class InfixToPostfix {
                 while (!OPERATOR_STACK.isEmpty() && precedence(op) <= precedence(topOp)) {
                     OPERATOR_STACK.pop();
                     if (topOp == '(') {
-
+                        // Matching '(' popped - exit loop.
                     }
                     POSTFIX.add(Character.toString(topOp));
                     if (!OPERATOR_STACK.isEmpty()) {
