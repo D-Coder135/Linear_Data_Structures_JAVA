@@ -111,6 +111,8 @@ public class InfixToPostfix {
             // Pop any remaining operators and append them to postfix.
             while (!OPERATOR_STACK.isEmpty()) {
                 char op = OPERATOR_STACK.pop();
+                // Any '(' on the stack is not matched.
+
                 POSTFIX.add(Character.toString(op));
             }
         } catch (NoSuchElementException exception) {
