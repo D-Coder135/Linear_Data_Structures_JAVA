@@ -148,6 +148,9 @@ public class InfixToPostfix {
                         topOp = OPERATOR_STACK.peek();
                     }
                 }
+                if (op != ')') {
+
+                }
             }
             OPERATOR_STACK.push(op);
         }
