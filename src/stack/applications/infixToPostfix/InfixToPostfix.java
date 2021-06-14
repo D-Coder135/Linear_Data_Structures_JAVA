@@ -95,6 +95,7 @@ public class InfixToPostfix {
         String[] tokens = infix.split("\\s+");
         try {
             // Process each token in the infix string.
+            String nextToken;
             for (String nextToken : tokens) {
                 char firstChar = nextToken.charAt(0);
 
