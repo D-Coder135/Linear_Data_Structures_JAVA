@@ -94,7 +94,7 @@ public class InfixToPostfix {
             // Process each token in the infix string.
             String nextToken;
             Scanner scanner = new Scanner(infix);
-            for (String nextToken : tokens) {
+            while ((nextToken = scanner.findInLine(PATTERN)) != null) {
                 char firstChar = nextToken.charAt(0);
 
                 // Is it an operand?
