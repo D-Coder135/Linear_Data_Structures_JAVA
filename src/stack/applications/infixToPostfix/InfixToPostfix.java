@@ -47,7 +47,7 @@ public class InfixToPostfix {
     /**
      * The precedence of the operators matches order in OPERATORS.
      */
-    private static final int[] PRECEDENCE = {1, 1, 2, 2};
+    private static final int[] PRECEDENCE = {1, 1, 2, 2, -1, -1};
 
     /**
      * The postfix string.
