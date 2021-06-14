@@ -7,10 +7,7 @@
 
 package stack.applications.infixToPostfix;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.NoSuchElementException;
-import java.util.StringJoiner;
+import java.util.*;
 
 /**
  * Translates an infix expression to a postfix expression.
@@ -96,6 +93,7 @@ public class InfixToPostfix {
         try {
             // Process each token in the infix string.
             String nextToken;
+            Scanner scanner = new Scanner(infix);
             for (String nextToken : tokens) {
                 char firstChar = nextToken.charAt(0);
 
