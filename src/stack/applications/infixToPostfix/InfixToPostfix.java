@@ -50,6 +50,11 @@ public class InfixToPostfix {
     private static final int[] PRECEDENCE = {1, 1, 2, 2, -1, -1};
 
     /**
+     * The pattern to extract tokens.
+     * A token is either a number, an identifier, or an operator.
+     * */
+
+    /**
      * The postfix string.
      */
     private final StringJoiner POSTFIX = new StringJoiner(" ");
