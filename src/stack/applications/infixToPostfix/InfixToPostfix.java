@@ -52,7 +52,8 @@ public class InfixToPostfix {
     /**
      * The pattern to extract tokens.
      * A token is either a number, an identifier, or an operator.
-     * */
+     */
+    private static final String PATTERN = "\\d+\\\\.\\\\d*|\\\\d+|" + "\\\\p{L}[\\\\p{L}\\\\p{N}]*" + "|[" + OPERATORS + "]";
 
     /**
      * The postfix string.
