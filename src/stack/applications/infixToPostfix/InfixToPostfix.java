@@ -129,7 +129,7 @@ public class InfixToPostfix {
      * @throws NoSuchElementException if argument is invalid
      */
     private void processOperator(char op) throws NoSuchElementException {
-        if (OPERATOR_STACK.isEmpty()) {
+        if (OPERATOR_STACK.isEmpty() || op == '(') {
             OPERATOR_STACK.push(op);
         } else {
             // Peek the operator stack and let topOp be top operator.
