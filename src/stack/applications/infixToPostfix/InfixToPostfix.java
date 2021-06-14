@@ -112,7 +112,9 @@ public class InfixToPostfix {
             while (!OPERATOR_STACK.isEmpty()) {
                 char op = OPERATOR_STACK.pop();
                 // Any '(' on the stack is not matched.
+                if (op == '(') {
 
+                }
                 POSTFIX.add(Character.toString(op));
             }
         } catch (NoSuchElementException exception) {
