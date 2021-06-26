@@ -17,27 +17,4 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT 
     // To store the number of node in the list.
     private int size;
 
-    @Override
-    public void addFirst(int data) {
-    }
-
-    @Override
-    public void addLast(int data) {
-
-    }
-
-    @Override
-    public int removeFirst() {
-        return 0;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return false;
-    }
-
-    @Override
-    public int size() {
-        return 0;
-    }
 }
