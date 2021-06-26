@@ -19,7 +19,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
 
     @Override
     public void addFirst(E data) {
-
+        Node<E> node = new Node<>(data);
     }
 
     @Override
