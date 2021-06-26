@@ -50,7 +50,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return tail == null;
     }
 
     @Override
