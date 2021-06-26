@@ -35,6 +35,8 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
         Node<E> node = new Node<>(data);
         if (isEmpty()) {
             addFirst(data);
+        } else {
+
         }
     }
 
