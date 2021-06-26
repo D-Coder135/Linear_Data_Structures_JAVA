@@ -21,7 +21,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
     public void addFirst(E data) {
         Node<E> node = new Node<>(data);
         if (isEmpty()) {
-
+            tail = node;
         }
     }
 
