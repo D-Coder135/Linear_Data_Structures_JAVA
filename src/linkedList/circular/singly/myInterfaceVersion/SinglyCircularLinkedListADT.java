@@ -6,4 +6,6 @@ public interface SinglyCircularLinkedListADT {
     void addLast(int data);
 
     int removeFirst();
+
+    boolean isEmpty();
 }
