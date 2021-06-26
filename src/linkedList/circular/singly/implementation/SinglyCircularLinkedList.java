@@ -33,6 +33,9 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
     @Override
     public void addLast(E data) {
         Node<E> node = new Node<>(data);
+        if (isEmpty()) {
+
+        }
     }
 
     @Override
