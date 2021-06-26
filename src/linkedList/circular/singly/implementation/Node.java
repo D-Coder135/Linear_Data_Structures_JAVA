@@ -8,5 +8,5 @@
 package linkedList.circular.singly.implementation;
 
 public class Node<E> {
-
+    private E data;
 }
