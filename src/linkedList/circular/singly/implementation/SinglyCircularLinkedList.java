@@ -36,6 +36,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
         if (isEmpty()) {
             addFirst(data);
         } else {
+            node.setNext(tail.getNext());
             tail.setNext(node);
             tail = node;
         }
