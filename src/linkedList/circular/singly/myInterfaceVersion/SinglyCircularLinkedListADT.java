@@ -1,9 +1,9 @@
 package linkedList.circular.singly.myInterfaceVersion;
 
 public interface SinglyCircularLinkedListADT<E> {
-    void addFirst(int data);
+    void addFirst(E data);
 
-    void addLast(int data);
+    void addLast(E data);
 
     int removeFirst();
 
