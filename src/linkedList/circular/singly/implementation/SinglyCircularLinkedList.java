@@ -24,7 +24,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
             tail = node;
             tail.setNext(node);
         } else {
-
+            node.setNext(tail);
         }
     }
 
