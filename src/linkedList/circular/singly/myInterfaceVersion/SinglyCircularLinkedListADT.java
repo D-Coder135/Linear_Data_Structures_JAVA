@@ -1,6 +1,6 @@
 package linkedList.circular.singly.myInterfaceVersion;
 
-public interface SinglyCircularLinkedListADT {
+public interface SinglyCircularLinkedListADT<E> {
     void addFirst(int data);
 
     void addLast(int data);

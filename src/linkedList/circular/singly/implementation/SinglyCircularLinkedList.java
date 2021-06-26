@@ -19,7 +19,6 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT 
 
     @Override
     public void addFirst(int data) {
-
     }
 
     @Override
