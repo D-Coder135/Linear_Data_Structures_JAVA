@@ -8,4 +8,6 @@ public interface SinglyCircularLinkedListADT {
     int removeFirst();
 
     boolean isEmpty();
+
+    int size();
 }
