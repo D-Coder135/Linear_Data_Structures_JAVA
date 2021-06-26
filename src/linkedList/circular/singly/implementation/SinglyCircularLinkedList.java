@@ -15,7 +15,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT 
     private Node<E> tail;
 
     // To store the number of node in the list.
-
+    private int size;
 
     @Override
     public void addFirst(int data) {
