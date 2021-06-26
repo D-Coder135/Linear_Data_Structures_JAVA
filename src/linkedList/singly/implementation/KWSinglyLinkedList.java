@@ -5,9 +5,9 @@
  *   File: KWSinglyLinkedList.java
  */
 
-package linkedList.singlyLinkedList.implementation;
+package linkedList.singly.implementation;
 
-import linkedList.singlyLinkedList.node.Node;
+import linkedList.singly.node.Node;
 
 public class KWSinglyLinkedList<E> {
     //    Reference to the list head. i.e head node

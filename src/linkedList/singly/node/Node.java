@@ -5,7 +5,7 @@
  *   File: Node.java
  */
 
-package linkedList.singlyLinkedList.node;
+package linkedList.singly.node;
 
 public class Node<E> {
 //    Data Fields
