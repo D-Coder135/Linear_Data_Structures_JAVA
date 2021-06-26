@@ -5,7 +5,7 @@
  *   File: Node.java
  */
 
-package linkedList.doublyLinkedList.node;
+package linkedList.doubly.node;
 
 // A Node is the building block for a double-linked list.
 public class Node<E> {

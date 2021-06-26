@@ -5,9 +5,9 @@
  *   File: KWDoublyLinkedList.java
  */
 
-package linkedList.doublyLinkedList.implementation;
+package linkedList.doubly.implementation;
 
-import linkedList.doublyLinkedList.node.Node;
+import linkedList.doubly.node.Node;
 
 public class KWDoublyLinkedList<E> {
     /**
