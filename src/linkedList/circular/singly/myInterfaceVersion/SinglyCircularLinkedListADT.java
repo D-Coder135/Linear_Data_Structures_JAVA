@@ -4,4 +4,6 @@ public interface SinglyCircularLinkedListADT {
     void addFirst(int data);
 
     void addLast(int data);
+
+    int removeFirst();
 }
