@@ -7,5 +7,7 @@
 
 package linkedList.circular.singly.implementation;
 
-public class SinglyCircularLinkedList {
+import linkedList.circular.singly.myInterfaceVersion.SinglyCircularLinkedListADT;
+
+public class SinglyCircularLinkedList implements SinglyCircularLinkedListADT {
 }
