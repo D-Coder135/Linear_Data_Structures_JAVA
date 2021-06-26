@@ -14,6 +14,9 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT 
     // The last node reference for the List i.e. the tail reference.
     private Node<E> tail;
 
+    // To store the number of node in the list.
+
+
     @Override
     public void addFirst(int data) {
 
