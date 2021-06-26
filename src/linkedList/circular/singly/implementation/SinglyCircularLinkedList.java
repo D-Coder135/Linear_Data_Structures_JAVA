@@ -9,7 +9,7 @@ package linkedList.circular.singly.implementation;
 
 import linkedList.circular.singly.myInterfaceVersion.SinglyCircularLinkedListADT;
 
-public class SinglyCircularLinkedList implements SinglyCircularLinkedListADT {
+public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT {
 
     // The last node reference for the List i.e. the tail reference.
 
