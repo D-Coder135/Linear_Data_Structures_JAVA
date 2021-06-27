@@ -68,4 +68,8 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
     public int size() {
         return size;
     }
+
+    public void traverse() {
+
+    }
 }
