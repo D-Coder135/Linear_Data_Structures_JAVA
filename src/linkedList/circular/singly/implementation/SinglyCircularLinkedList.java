@@ -73,7 +73,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
         if (!isEmpty()) {
             Node<E> tempFirstNode = tail.getNext();
             while (tempFirstNode != tail) {
-
+                System.out.println(tempFirstNode.getData() + ", ");
             }
         }
     }
