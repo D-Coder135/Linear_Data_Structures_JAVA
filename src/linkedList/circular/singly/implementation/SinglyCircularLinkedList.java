@@ -46,7 +46,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
     @Override
     public int removeFirst() {
         int response = 0;
-        return 0;
+        return response;
     }
 
     @Override
