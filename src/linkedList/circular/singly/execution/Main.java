@@ -17,5 +17,6 @@ public class Main {
         circularLinkedList.addLast(50);
         circularLinkedList.addFirst(30);
         circularLinkedList.addFirst(40);
+        circularLinkedList.addLast(60);
     }
 }
