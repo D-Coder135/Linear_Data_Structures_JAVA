@@ -20,6 +20,7 @@ public class Main {
         circularLinkedList.addLast(60);
         System.out.println("After performing Insertion operation, List is => ");
         circularLinkedList.traverse();
+        System.out.println("Size = " + circularLinkedList.size());
         System.out.println();
         System.out.println("Removing the first element of the list i.e = " + circularLinkedList.removeFirst());
         System.out.println("List after performing all the operations => ");
