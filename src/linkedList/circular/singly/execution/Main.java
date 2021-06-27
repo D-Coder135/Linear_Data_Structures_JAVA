@@ -25,5 +25,6 @@ public class Main {
         System.out.println("Removing the first element of the list i.e = " + circularLinkedList.removeFirst());
         System.out.println("List after performing all the operations => ");
         circularLinkedList.traverse();
+        System.out.println("Size = " + circularLinkedList.size());
     }
 }
