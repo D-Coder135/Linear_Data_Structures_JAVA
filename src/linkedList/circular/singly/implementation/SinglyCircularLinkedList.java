@@ -66,6 +66,6 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 }
