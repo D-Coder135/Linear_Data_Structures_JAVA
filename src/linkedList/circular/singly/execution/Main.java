@@ -15,6 +15,6 @@ public class Main {
         System.out.println(circularLinkedList.size());
         circularLinkedList.addFirst(20);
         circularLinkedList.addLast(50);
-
+        circularLinkedList.addFirst(30);
     }
 }
