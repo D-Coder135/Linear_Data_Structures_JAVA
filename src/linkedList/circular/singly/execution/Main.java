@@ -14,5 +14,7 @@ public class Main {
         SinglyCircularLinkedList<Integer> circularLinkedList = new SinglyCircularLinkedList<>();
         System.out.println(circularLinkedList.size());
         circularLinkedList.addFirst(20);
+        circularLinkedList.addLast(50);
+
     }
 }
