@@ -45,7 +45,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
 
     @Override
     public int removeFirst() {
-        int response = 0;
+        E response;
         if (!isEmpty()) {
             Node<E> firstNode = tail.getNext();
             if (firstNode == tail) {
@@ -54,6 +54,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
                 tail.setNext(firstNode.getNext());
             }
             size--;
+
         }
         return response;
     }
