@@ -12,5 +12,7 @@ import linkedList.circular.singly.implementation.SinglyCircularLinkedList;
 public class Main {
     public static void main(String[] args) {
         SinglyCircularLinkedList<Integer> circularLinkedList = new SinglyCircularLinkedList<>();
+        System.out.println(circularLinkedList.size());
+
     }
 }
