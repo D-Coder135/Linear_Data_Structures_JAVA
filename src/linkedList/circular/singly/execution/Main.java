@@ -18,6 +18,6 @@ public class Main {
         circularLinkedList.addFirst(30);
         circularLinkedList.addFirst(40);
         circularLinkedList.addLast(60);
-
+        System.out.println("After performing Insertion operation, Size = " + circularLinkedList.size());
     }
 }
