@@ -51,7 +51,7 @@ public class SinglyCircularLinkedList<E> implements SinglyCircularLinkedListADT<
             if (firstNode == tail) {
                 tail = null;
             } else {
-
+                tail.setNext(firstNode.getNext());
             }
         }
         return response;
