@@ -10,7 +10,7 @@ package stack;
 import java.util.NoSuchElementException;
 
 /**
- * A Stack is a data structure in which objects are inserted into and remove fromt
+ * A Stack is a linear data structure in which objects are inserted into and remove front
  * the same end (i.e., Last-In, First-Out).
  *
  * @param <E> The element type
