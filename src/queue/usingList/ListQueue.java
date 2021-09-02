@@ -100,7 +100,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     public boolean offer(E item) {
         // Check for empty queue.
         if (isEmpty()) {
-
+            return false;
         }
         return false;
     }
