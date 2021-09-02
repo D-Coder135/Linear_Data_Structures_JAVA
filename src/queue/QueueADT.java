@@ -24,5 +24,6 @@ public interface QueueADT<E> {
      *
      * @return the item removed if the queue is not empty.
      * @throws NoSuchElementException if the queue is empty.
-     * */
+     */
+    E remove();
 }
