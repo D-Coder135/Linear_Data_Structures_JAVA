@@ -48,4 +48,10 @@ public interface QueueADT<E> {
      * @throws NoSuchElementException if the queue is empty.
      */
     E element();
+
+    /**
+     * Returns true if the queue is empty; otherwise returns false.
+     *
+     * @return true (false) if the queue is empty (not empty)
+     */
 }
