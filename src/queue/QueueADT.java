@@ -1,4 +1,4 @@
 package queue;
 
-public interface QueueADT {
+public interface QueueADT<E> {
 }
