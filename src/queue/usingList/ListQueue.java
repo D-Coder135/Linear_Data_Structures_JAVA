@@ -101,12 +101,13 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         // Check for empty queue.
         if (isEmpty()) {
             return false;
-        }
-        if (front == null) {
-            rear = new Node<>(item);
-            front = rear;
         } else {
+            if (front == null) {
+                rear = new Node<>(item);
+                front = rear;
+            } else {
 
+            }
         }
     }
 
