@@ -133,6 +133,6 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (size == 0) {
             return null;
         }
-        return null;
+        return front.data;
     }
 }
