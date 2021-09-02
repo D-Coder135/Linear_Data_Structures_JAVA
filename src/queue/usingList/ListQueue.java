@@ -107,6 +107,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
                 front = rear;
             } else {
                 // Allocate a new node at end, store item in it, and link it to old end of the queue.
+                rear.next = new Node<>(item);
             }
         }
     }
