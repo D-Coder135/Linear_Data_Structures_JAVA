@@ -15,7 +15,12 @@ public interface QueueADT<E> {
      * @param item The item to be inserted
      * @return true if successful, false if the item could not be inserted.
      */
-
     boolean offer(E item);
 
+    /**
+     * Removes the entry at the front of the queue.
+     *
+     * @return the item removed if the queue is not empty.
+     * @throws NoSuchElementException if the queue is empty.
+     * */
 }
