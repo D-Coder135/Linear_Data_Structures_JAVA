@@ -10,6 +10,31 @@ package queue.usingList;
 import queue.QueueADT;
 
 import java.util.AbstractQueue;
+import java.util.Iterator;
 
 public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
+    @Override
+    public Iterator<E> iterator() {
+        return null;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
+    public boolean offer(E e) {
+        return false;
+    }
+
+    @Override
+    public E poll() {
+        return null;
+    }
+
+    @Override
+    public E peek() {
+        return null;
+    }
 }
