@@ -11,6 +11,7 @@ import queue.QueueADT;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 /**
  * Implements the Queue interface using a singly-linked list.
@@ -133,7 +134,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         E item = peek();
         // Retrieve item at front.
         if (item == null) {
-            return null;
+            throw new NoSuchElementException();
         }
         // Remove item at front.
         front = front.next;
