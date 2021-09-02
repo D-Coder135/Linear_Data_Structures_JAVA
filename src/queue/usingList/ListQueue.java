@@ -120,7 +120,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         E item = peek();
         // Retrieve item at front.
         if (item == null) {
-
+            return null;
         }
         return null;
     }
