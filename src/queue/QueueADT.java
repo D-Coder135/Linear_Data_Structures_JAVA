@@ -46,5 +46,6 @@ public interface QueueADT<E> {
      *
      * @return the entry at the front of the queue
      * @throws NoSuchElementException if the queue is empty.
-     * */
+     */
+    E element();
 }
