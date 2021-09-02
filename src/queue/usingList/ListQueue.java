@@ -99,7 +99,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
 
     @Override
     public boolean isEmpty() {
-        return super.isEmpty();
+        return size == 0;
     }
 
     @Override
