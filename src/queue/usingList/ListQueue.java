@@ -7,6 +7,7 @@
 
 package queue.usingList;
 
+import linkedList.singly.node.Node;
 import queue.QueueADT;
 
 import java.util.AbstractQueue;
@@ -16,6 +17,13 @@ import java.util.Iterator;
  * Implements the Queue interface using a singly-linked list.
  */
 public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
+
+    // Data Fields
+    /**
+     * Reference to the front of the queue.
+     */
+    private Node<E> front;
+
     @Override
     public Iterator<E> iterator() {
         return null;
