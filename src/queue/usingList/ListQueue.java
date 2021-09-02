@@ -7,5 +7,5 @@
 
 package queue.usingList;
 
-public class ListQueue {
+public class ListQueue<E> {
 }
