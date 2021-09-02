@@ -9,6 +9,13 @@ package queue;
 
 public interface QueueADT<E> {
 
+    /**
+     * Inserts item at the rear of the queue.
+     *
+     * @param item The item to be inserted
+     * @return true if successful, false if the item could not be inserted.
+     */
+
     boolean offer(E item);
 
 }
