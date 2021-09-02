@@ -34,6 +34,9 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
      */
     private int size;
 
+    // Inner class Node<E> for singly-linked list.
+
+
     @Override
     public Iterator<E> iterator() {
         return null;
