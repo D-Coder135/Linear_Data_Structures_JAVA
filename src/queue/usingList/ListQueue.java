@@ -145,7 +145,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     @Override
     public E element() {
         if (size == 0) {
-            return null;
+            throw new NoSuchElementException();
         }
         return front.data;
     }
