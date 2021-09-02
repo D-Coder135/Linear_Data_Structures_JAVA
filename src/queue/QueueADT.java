@@ -33,4 +33,10 @@ public interface QueueADT<E> {
      * @return the item removed if the queue is not empty, null if the queue is empty.
      */
     E poll();
+
+    /**
+     * Returns the entry at the front of the queue without removing it.
+     *
+     * @return the entry at the front of the queue, null if the queue is empty.
+     * */
 }
