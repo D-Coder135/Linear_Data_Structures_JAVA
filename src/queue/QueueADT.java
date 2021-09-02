@@ -1,3 +1,10 @@
+/*   Created by IntelliJ IDEA.
+ *   Author: Devansh Shukla (D-Coder135)
+ *   Date: 02/09/21
+ *   Time: 2:00 PM
+ *   File: QueueADT.java
+ */
+
 package queue;
 
 import java.util.NoSuchElementException;
