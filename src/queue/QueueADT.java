@@ -40,4 +40,11 @@ public interface QueueADT<E> {
      * @return the entry at the front of the queue, null if the queue is empty.
      */
     E peek();
+
+    /**
+     * Returns the entry at the front of the queue without removing it.
+     *
+     * @return the entry at the front of the queue
+     * @throws NoSuchElementException if the queue is empty.
+     * */
 }
