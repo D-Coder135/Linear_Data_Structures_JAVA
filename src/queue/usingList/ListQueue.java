@@ -118,6 +118,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     @Override
     public E poll() {
         E item = peek();
+        // Retrieve item at front.
         return null;
     }
 
