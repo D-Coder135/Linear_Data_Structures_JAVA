@@ -122,6 +122,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (item == null) {
             return null;
         }
+        // Remove item at front.
         return null;
     }
 
