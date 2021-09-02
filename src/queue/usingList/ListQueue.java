@@ -129,6 +129,16 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     }
 
     @Override
+    public E remove() {
+        return super.remove();
+    }
+
+    @Override
+    public E element() {
+        return super.element();
+    }
+
+    @Override
     public E peek() {
         if (size == 0) {
             return null;
