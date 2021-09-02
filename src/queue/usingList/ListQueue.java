@@ -98,6 +98,11 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     }
 
     @Override
+    public boolean isEmpty() {
+        return super.isEmpty();
+    }
+
+    @Override
     public boolean offer(E item) {
         // Check for empty queue.
         if (isEmpty()) {
