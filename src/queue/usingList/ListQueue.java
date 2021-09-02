@@ -123,6 +123,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
             return null;
         }
         // Remove item at front.
+        front = front.next;
         return null;
     }
 
