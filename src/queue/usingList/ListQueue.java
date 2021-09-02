@@ -29,6 +29,10 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
      */
     private Node<E> rear;
 
+    /**
+     * Size of the queue.
+     */
+
     @Override
     public Iterator<E> iterator() {
         return null;
