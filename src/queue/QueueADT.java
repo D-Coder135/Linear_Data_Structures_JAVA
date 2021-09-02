@@ -54,4 +54,5 @@ public interface QueueADT<E> {
      *
      * @return true (false) if the queue is empty (not empty)
      */
+    boolean isEmpty();
 }
