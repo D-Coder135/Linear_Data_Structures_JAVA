@@ -31,5 +31,6 @@ public interface QueueADT<E> {
      * Removes the entry at the front of the queue.
      *
      * @return the item removed if the queue is not empty, null if the queue is empty.
-     * */
+     */
+    E poll();
 }
