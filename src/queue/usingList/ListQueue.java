@@ -111,6 +111,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
                 rear = rear.next;
             }
             size++;
+            return true;
         }
     }
 
