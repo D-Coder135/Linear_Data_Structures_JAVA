@@ -1,5 +1,7 @@
 package queue;
 
+import java.util.NoSuchElementException;
+
 /**
  * A queue is a linear data structure which follows a particular order in which the operations are performed.
  * The order is First-In First-Out (FIFO)
