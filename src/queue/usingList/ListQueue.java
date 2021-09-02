@@ -105,6 +105,8 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (front == null) {
             rear = new Node<>(item);
             front = rear;
+        } else {
+
         }
     }
 
