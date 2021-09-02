@@ -125,7 +125,7 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         // Remove item at front.
         front = front.next;
         size--;
-        return null;
+        return item;
     }
 
     @Override
