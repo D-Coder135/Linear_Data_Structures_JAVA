@@ -102,7 +102,9 @@ public class ListQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (isEmpty()) {
             return false;
         }
-        return false;
+        if (front == null) {
+
+        }
     }
 
     @Override
