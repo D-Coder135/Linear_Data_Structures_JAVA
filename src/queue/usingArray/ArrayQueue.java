@@ -7,5 +7,5 @@
 
 package queue.usingArray;
 
-public class ArrayQueue {
+public class ArrayQueue<E> {
 }
