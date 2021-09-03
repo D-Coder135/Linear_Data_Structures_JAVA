@@ -7,7 +7,9 @@
 
 package queue.usingArray;
 
+import queue.QueueADT;
+
 import java.util.AbstractQueue;
 
-public class ArrayQueue<E> extends AbstractQueue<E> {
+public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
 }
