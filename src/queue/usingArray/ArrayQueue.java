@@ -12,7 +12,11 @@ import queue.QueueADT;
 import java.util.AbstractQueue;
 import java.util.Iterator;
 
+/**
+ * Implements the QueueADT interface using a circular array.
+ */
 public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
+
     @Override
     public Iterator<E> iterator() {
         return null;
