@@ -27,6 +27,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     /**
      * Index of the rear of the queue.
      */
+    private int rear;
     @Override
     public Iterator<E> iterator() {
         return null;
