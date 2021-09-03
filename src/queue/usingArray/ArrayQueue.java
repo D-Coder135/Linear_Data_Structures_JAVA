@@ -7,5 +7,7 @@
 
 package queue.usingArray;
 
-public class ArrayQueue<E> {
+import java.util.AbstractQueue;
+
+public class ArrayQueue<E> extends AbstractQueue<E> {
 }
