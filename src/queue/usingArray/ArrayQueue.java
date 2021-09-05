@@ -72,6 +72,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         size = 0;
     }
 
+    // Public Methods
 
     @Override
     public Iterator<E> iterator() {
