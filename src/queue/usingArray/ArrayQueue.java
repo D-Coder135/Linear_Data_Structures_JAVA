@@ -88,6 +88,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (size == capacity) {
             reallocate();
         }
+        size++;
         return false;
     }
 
