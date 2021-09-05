@@ -90,6 +90,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         }
         size++;
         rear = (rear + 1) % capacity;
+        theData[rear] = item;
         return false;
     }
 
