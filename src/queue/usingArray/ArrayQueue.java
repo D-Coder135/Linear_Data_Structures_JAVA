@@ -84,7 +84,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     }
 
     @Override
-    public boolean offer(E e) {
+    public boolean offer(E item) {
         if (size == capacity) {
             reallocate();
         }
