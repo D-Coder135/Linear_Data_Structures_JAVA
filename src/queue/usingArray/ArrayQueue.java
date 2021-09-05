@@ -73,7 +73,6 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     }
 
     // Public Methods
-
     @Override
     public Iterator<E> iterator() {
         return null;
@@ -86,6 +85,9 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
 
     @Override
     public boolean offer(E e) {
+        if (size == capacity) {
+
+        }
         return false;
     }
 
