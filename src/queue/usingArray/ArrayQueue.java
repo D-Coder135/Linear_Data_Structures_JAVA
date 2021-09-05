@@ -54,6 +54,10 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     /**
      * Construct a queue with the default initial capacity.
      */
+    public ArrayQueue() {
+        this(DEFAULT_CAPACITY);
+    }
+
 
     @Override
     public Iterator<E> iterator() {
