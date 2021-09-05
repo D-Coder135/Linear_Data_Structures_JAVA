@@ -113,4 +113,6 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
             return theData[front];
         }
     }
+
+    // Private Methods
 }
