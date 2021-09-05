@@ -58,6 +58,12 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         this(DEFAULT_CAPACITY);
     }
 
+    /**
+     * Construct a queue with the specified initial capacity.
+     *
+     * @param initCapacity The initial capacity
+     */
+
 
     @Override
     public Iterator<E> iterator() {
