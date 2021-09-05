@@ -126,8 +126,9 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         int newCapacity = 2 * capacity;
         E[] newData = (E[]) new Object[newCapacity];
         int j = front;
-        for (int i = 0; i < size; i++) {
-            newData[i] = theData[j];
+        for (int index = 0; index < size; index++) {
+            newData[index] = theData[j];
+            j = (j + 1) % capacity;
         }
     }
 }
