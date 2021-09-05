@@ -100,6 +100,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
             return null;
         }
         E result = theData[front];
+        front = (front + 1) % capacity;
         return null;
     }
 
