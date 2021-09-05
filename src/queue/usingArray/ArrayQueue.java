@@ -80,7 +80,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
