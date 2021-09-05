@@ -58,6 +58,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         this(DEFAULT_CAPACITY);
     }
 
+    @SuppressWarnings("unchecked")
     /**
      * Construct a queue with the specified initial capacity.
      *
