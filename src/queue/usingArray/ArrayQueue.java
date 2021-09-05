@@ -99,6 +99,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         if (size == 0) {
             return null;
         }
+        E result = theData[front];
         return null;
     }
 
