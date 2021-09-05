@@ -103,7 +103,8 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     public E peek() {
         if (size == 0) {
             return null;
+        } else {
+
         }
-        return null;
     }
 }
