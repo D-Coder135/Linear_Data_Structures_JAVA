@@ -37,6 +37,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     /**
      * Current capacity of the queue.
      */
+    private int capacity;
     @Override
     public Iterator<E> iterator() {
         return null;
