@@ -123,6 +123,6 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
      */
     @SuppressWarnings("unchecked")
     private void reallocate() {
-        
+        int newCapacity = 2 * capacity;
     }
 }
