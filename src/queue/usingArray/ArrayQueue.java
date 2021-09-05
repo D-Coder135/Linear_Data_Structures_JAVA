@@ -132,5 +132,6 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
         }
         front = 0;
         rear = size - 1;
+        capacity = newCapacity;
     }
 }
