@@ -115,10 +115,14 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     }
 
     // Private Methods
-
-    @SuppressWarnings("unchecked")
-    /** Double the capacity and reallocate the data.
+    /**
+     * Double the capacity and reallocate the data.
+     *
      * @pre The array is filled to capacity.
      * @post The capacity is doubled and the first half of the expanded array is filled with data.
-     * */
+     */
+    @SuppressWarnings("unchecked")
+    private void reallocate() {
+        
+    }
 }
