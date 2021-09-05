@@ -63,6 +63,9 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
      *
      * @param initCapacity The initial capacity
      */
+    public ArrayQueue(int initCapacity) {
+        this.capacity = capacity;
+    }
 
 
     @Override
