@@ -48,6 +48,9 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
      * Array to hold the data.
      */
     private E[] theData;
+
+    // Constructors
+
     @Override
     public Iterator<E> iterator() {
         return null;
