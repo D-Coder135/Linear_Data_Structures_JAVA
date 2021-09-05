@@ -66,6 +66,7 @@ public class ArrayQueue<E> extends AbstractQueue<E> implements QueueADT<E> {
     public ArrayQueue(int initCapacity) {
         capacity = initCapacity;
         theData = (E[]) new Object[capacity];
+        front = 0;
     }
 
 
